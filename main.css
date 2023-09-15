@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+
+
+:root{
+    /* --title:Rajdhani, sans-serif; */
+    --subtitle:Raleway, sans-serif;
+    --color-1:#2970DB;
+    --color-2:#7CCDCB;
+    --color-3:#F2F6F8;
+    --color-4:#67B500;
+    --color-5:#C81E3A;
+    --letra-l:22px;
+    --letra-s:10px;
+    --letra-m:17px;
+    --color-active:orange;
+}
+
+
+
+.titleh3{
+    color: var(--color-2);
+  
+ }
+
+.subtitle{
+    color: var(--color-2);
+    font-size: var(--letra-l);
+}
+.img {
+    max-width: 60%;
+    height: auto; 
+    display: inline-block; 
+    margin: 2px;
+}
+.container {
+    text-align: center; 
+    background-color: var(--color-1);
+   
+}
+
+
+@media (min-width: 541px) and (max-width: 620px) {
+       .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+}
