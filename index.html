@@ -18,10 +18,10 @@
                 <input class="form-control me-2" type="search" placeholder="Tu próximo viaje..." aria-label="Search">
                 <button class="btn btn-light" type="submit">Buscar</button>
             </form>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar1" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar1" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img class="logo1" src="https://lagomprioritytravel.tur.ar/fotos/configuracion_web/89b5857029d6229962bf3d96fccf4ff8.jpg" alt="Logo"></h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -29,7 +29,8 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        <a type="button" class="nav-link active" data-bs-toggle="modal" data-bs-target="#modalContacto">Contacto</a>
+        
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">La empresa</a>
@@ -100,6 +101,43 @@
     </div>
 
 </header>
+
+<!--    -------------------Modales Modales Modales ------------------- -->
+
+<div class="modal fade" id="modalContacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">EMPRESA DE VIAJES Y TURISMO</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="row modal-body">
+            <ul class="col">
+                <li class="modalLi">+5492235379366</li>
+                <li class="modalLi">+5492235379366</li>
+                <li class="modalLi">+5492235759174</li>
+            </ul>
+
+            <ul class="col">
+                <li class="modalLi">info@lagomviajes.com.ar</li>
+                <li class="modalLi">info@lagomprioritytravel.tur.ar</li>
+            </ul>
+
+            <ul>
+                <li class="modalLi"><em>EVT Legajo Nro. 18386</em></li>
+                <li class="modalLi"><em>Responsable: Balcabao Guillermo</em></li>
+                <li class="modalLi"><em>Idóneo Nro. 14707</em></li>
+            </ul>
+
+        </div>
+        <div class="modal-footer">
+
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- ... Chechi ends  --> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
