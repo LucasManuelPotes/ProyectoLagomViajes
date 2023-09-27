@@ -18,3 +18,18 @@
     --letra-m:'17px';
     --color-active:orange;
 }
+
+
+.logo1 {
+    width: 190px;
+    border-radius: 0px 15px 0px 15px;
+}
+
+/* ---__-----__------ MEDIA MEDIA MEDIA MEDIA ------__-----__--- */
+
+
+@media (max-width: 560px) {
+    .navbar-brand {
+        display: none;
+    }
+}
