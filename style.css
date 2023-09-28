@@ -19,7 +19,6 @@
     --color-active:orange;
 }
 
-
 .logo1 {
     width: 190px;
     border-radius: 0px 15px 0px 15px;
@@ -28,11 +27,53 @@
 .modalLi {
     list-style-type: none
 }
+
+.titleh3{
+    color: var(--color-2);
+  
+ }
+
+.subtitle{
+    color: var(--color-2);
+    font-size: var(--letra-l);
+}
+.img {
+    max-width: 60%;
+    height: auto; 
+    display: inline-block; 
+    margin: 2px;
+}
+.container {
+    text-align: center; 
+    background-color: var(--color-1);
+   
+}
+
 /* ---__-----__------ MEDIA MEDIA MEDIA MEDIA ------__-----__--- */
-
-
-@media (max-width: 560px) {
+@media (min-width: 541px) and (max-width: 620px) {
+       .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
     .navbar-brand {
         display: none;
     }
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+    .carusel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+   
+   
 }
+
+
