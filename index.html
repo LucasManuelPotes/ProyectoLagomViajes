@@ -8,8 +8,107 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
-<body>
+
+<body>    <!-- ... esta es la rama de Chechi  -->
+
+<header>
+
+    <nav class="navbar bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> Inicio </a>
+            <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Tu próximo viaje..." aria-label="Search">
+                <button class="btn btn-light" type="submit">Buscar</button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar1" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar1" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img class="logo1" src="https://lagomprioritytravel.tur.ar/fotos/configuracion_web/89b5857029d6229962bf3d96fccf4ff8.jpg" alt="Logo"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a type="button" class="nav-link active" data-bs-toggle="modal" data-bs-target="#modalContacto">Contacto</a>
+        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">La empresa</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Hoteles</a></li>
+                            <li><a class="dropdown-item" href="#">Vuelos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Paquetes</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Destinos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Nacionales</a></li>
+                            <li><a class="dropdown-item" href="#">Internacionales</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ofertas de ultimo momento</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/3597649.jpg" class="d-block w-100" alt="img1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/3597652.jpg" class="d-block w-100" alt="img2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/3597874.jpg" class="d-block w-100" alt="img3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/3597832.jpg" class="d-block w-100" alt="img3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/3597975.jpg" class="d-block w-100" alt="img3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/3597979.jpg" class="d-block w-100" alt="img3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</header>
+
+
+<!-- ... Chechi ends  --> 
+
 <!-- INICIO LUCAS -->
+ 
 <div class="container">
     <div class="row">
         <div class="col-md-12 col-sm-12">
@@ -50,8 +149,46 @@
         </div>
     </div>
 </div>
+      <!-- Fin Lucas -->
+
+  
+  <!--    -------------------Modales Modales Modales ------------------- -->
+
+<div class="modal fade" id="modalContacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">EMPRESA DE VIAJES Y TURISMO</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="row modal-body">
+            <ul class="col">
+                <li class="modalLi">+5492235379366</li>
+                <li class="modalLi">+5492235379366</li>
+                <li class="modalLi">+5492235759174</li>
+            </ul>
+
+            <ul class="col">
+                <li class="modalLi">info@lagomviajes.com.ar</li>
+                <li class="modalLi">info@lagomprioritytravel.tur.ar</li>
+            </ul>
+
+            <ul>
+                <li class="modalLi"><em>EVT Legajo Nro. 18386</em></li>
+                <li class="modalLi"><em>Responsable: Balcabao Guillermo</em></li>
+                <li class="modalLi"><em>Idóneo Nro. 14707</em></li>
+            </ul>
+
+        </div>
+        <div class="modal-footer">
+
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
-    <!-- Fin Lucas -->
-
-
 </html>

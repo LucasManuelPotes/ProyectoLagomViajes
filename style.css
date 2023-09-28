@@ -19,7 +19,14 @@
     --color-active:orange;
 }
 
+.logo1 {
+    width: 190px;
+    border-radius: 0px 15px 0px 15px;
+}
 
+.modalLi {
+    list-style-type: none
+}
 
 .titleh3{
     color: var(--color-2);
@@ -42,7 +49,7 @@
    
 }
 
-
+/* ---__-----__------ MEDIA MEDIA MEDIA MEDIA ------__-----__--- */
 @media (min-width: 541px) and (max-width: 620px) {
        .container {
         display: flex;
@@ -51,7 +58,9 @@
         align-items: center;
         height: 100vh;
     }
-
+    .navbar-brand {
+        display: none;
+    }
     .img {
         max-width: 100%;
         height: auto;
@@ -66,3 +75,5 @@
    
    
 }
+
+
