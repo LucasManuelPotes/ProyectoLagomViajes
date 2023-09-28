@@ -13,7 +13,7 @@
 
 <header>
 
-    <nav class="navbar bg-primary">
+    <nav class="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"> Inicio </a>
             <form class="d-flex mt-3" role="search">
@@ -35,7 +35,7 @@
         
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">La empresa</a>
+                        <a type="button" class="nav-link active" data-bs-toggle="modal" data-bs-target="#modalEmpresa">La empresa</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -149,10 +149,11 @@
         </div>
     </div>
 </div>
-      <!-- Fin Lucas -->
 
-  
-  <!--    -------------------Modales Modales Modales ------------------- -->
+
+<!-- Fin Lucas -->
+
+    <!--    -------------------Modales Modales Modales  (CHECHI)------------------- -->
 
 <div class="modal fade" id="modalContacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -182,7 +183,28 @@
         </div>
         <div class="modal-footer">
 
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalEmpresa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"> <img class="logo1" src="https://lagomprioritytravel.tur.ar/fotos/configuracion_web/89b5857029d6229962bf3d96fccf4ff8.jpg" alt="Logo"> </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+<p class="modal-p">¡Bienvenido/a a Lagom! Nuestro nombre refleja nuestra filosofía y enfoque únicos hacia los viajes. Lagom es una palabra sueca que se puede entender como "equilibrio" o "en su justa medida".</p>
+<p class="modal-p">Para nosotros, Lagom es el arte de encontrar la armonía entre explorar nuevos horizontes, sumergirse en la cultura local y también tener tiempo para descansar y reflexionar. Creemos que cada viaje debe ser una experiencia enriquecedora y equilibrada, llena de descubrimientos emocionantes y momentos de serenidad. </p>
+<p class="modal-p">Te invitamos a explorar nuestro sitio web y descubrir cómo Lagom puede hacer que tus viajes sean especiales.</p>
+
+        </div>
+        <div class="modal-footer">
+
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
             </div>
         </div>
     </div>
