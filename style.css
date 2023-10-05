@@ -66,9 +66,136 @@ a {
     text-decoration: none;
     color: white;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-a:hover {
-    color: yellow;
+.comments {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.comment-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.logo1 {
+    width: 190px;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.modalLi {
+    list-style-type: none
+}
+
+.navbar {
+    background: linear-gradient(180deg, rgba(41,112,219,1) 0%, rgba(41,112,219,1) 90%, rgba(255,255,255,1) 100%);
+
+}
+
+.offcanvas {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(41,112,219,1) 100%);
+}
+
+.modal-content {
+    background: linear-gradient(40deg, rgba(41,112,219,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(41,112,219,1) 100%);
+}
+
+.modal-p {
+    text-indent: 10%;
+    text-align: justify;
+}
+
+.titleh3{
+    color: var(--color-2);
+}
+
+.subtitle{
+    color: var(--color-2);
+    font-size: var(--letra-l);
+}
+.img {
+    max-width: 60%;
+    height: auto; 
+    display: inline-block; 
+    margin: 2px;
+}
+.container {
+    text-align: center; 
+    background-color: var(--color-1);
+ 
+}
+/* ---__-----__------ MEDIA MEDIA MEDIA MEDIA ------__-----__--- */
+@media (min-width: 541px) and (max-width: 620px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+    .carrusel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
 }
 
 /* Media Query para pantallas entre 541px y 620px */
