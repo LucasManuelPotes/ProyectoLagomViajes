@@ -3,6 +3,18 @@ body {
     margin: 0;
     padding: 0;
 }
+:root {
+    --title: 'Rajdhani', sans-serif;
+    --subtitle: 'Raleway', sans-serif;
+    --color-1: #4892ca;
+    --color-2: #036156;
+    --color-3: #0b2e49;
+    --color-4: #cecece;
+    --letra-l: 22px;
+    --letra-s: 10px;
+    --letra-m: 17px;
+    --color-active: orange;
+}
 
 .comments {
     max-width: 600px;
@@ -127,6 +139,91 @@ li {
         justify-content: center;
         align-items: center;
         height: 100vh;
+    }
+}
+
+.colordiv {
+    background-color: #7CCDCB;
+    padding: 20px; /* Añadimos un poco de espacio interno para mejorar la apariencia */
+}
+
+.buttontam {
+    width: 58%;
+    margin: 20px auto; /* Centramos horizontalmente y agregamos espacio superior e inferior */
+    border-radius: 10px;
+    padding: 10px 0; /* Agregamos espacio interno para mejorar la apariencia */
+}
+
+.textimg1 {
+    font-size: 125px;
+    color: white;
+    position: absolute;
+    z-index: 4;
+    left: 350px;
+
+}
+.textimg2 {
+    font-size: 125px;
+    color: white;
+    position: absolute;
+    z-index: 4;
+    left: 350px;
+}
+.textimg3 {
+    font-size: 125px;
+    color: white;
+    position: absolute;
+    z-index: 5;
+    left: 350px;
+  
+}
+
+img {
+    max-width: 100%; /* Aseguramos que las imágenes se ajusten al ancho de su contenedor */
+    height: auto;
+    display: block; /* Eliminamos el espacio debajo de las imágenes */
+    margin: 0 auto; /* Centramos horizontalmente las imágenes */
+    position: relative;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* Media Query para pantallas entre 541px y 620px */
+@media (min-width: 541px) and (max-width: 620px) {
+    .colordiv {
+        padding: 10px; /* Reducimos el espacio interno en pantallas más pequeñas */
+    }
+
+    .textimg1, .textimg2, .textimg3 {
+        font-size: 80px; /* Reducimos el tamaño del texto en pantallas más pequeñas */
+        left: 20px;
+
+    }
+
+    .buttontam {
+        width: 80%; /* Reducimos el ancho del botón en pantallas más pequeñas */
+}
+}
+@media (min-width: 620px) and (max-width: 900px){
+    .textimg1, .textimg2, .textimg3 {
+        font-size: 80px; /* Reducimos el tamaño del texto en pantallas más pequeñas */
+        left: 20px;
+
+    }
+}
+@media (min-width: 200px) and (max-width: 541px){
+    .textimg1, .textimg2, .textimg3 {
+        font-size: 50px; /* Reducimos el tamaño del texto en pantallas más pequeñas */
+        left: 20px;
+
     }
 }
 
