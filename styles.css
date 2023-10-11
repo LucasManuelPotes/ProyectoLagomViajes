@@ -19,31 +19,31 @@
 }
 
 
-
-.titleh3{
+/* Seccion LucasBranc */
+h3,.l-title{
     color: var(--color-2);
-  
  }
 
-.subtitle{
+p,.l-subtitle{
     color: var(--color-2);
     font-size: var(--letra-l);
 }
-.img {
+.l-img {
     max-width: 60%;
     height: auto; 
     display: inline-block; 
     margin: 2px;
 }
-.container {
+   div,.l-container {
     text-align: center; 
     background-color: var(--color-1);
-   
-}
+   }
 
+/* Seccion LucasBranc */
 
 @media (min-width: 541px) and (max-width: 620px) {
-       .container {
+    /* Seccion LucasBranc */  
+    div,.l-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -51,8 +51,19 @@
         height: 100vh;
     }
 
-    .img {
+    .l-img {
         max-width: 100%;
         height: auto;
     }
+
+    h3,.l-title{
+        color: var(--color-2);
+       font-size: var(--letra-s);
+     }
+    
+    p,.l-subtitle{
+        color: var(--color-2);
+        font-size: var(--letra-s);
+    }
+    /* Seccion LucasBranc */
 }
