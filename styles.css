@@ -19,7 +19,7 @@
 }
 
 
-/* Seccion LucasBranc */
+/* Seccion LucasBranch */
 h3,.l-title{
     color: var(--color-2);
  }
@@ -34,12 +34,12 @@ p,.l-subtitle{
     display: inline-block; 
     margin: 2px;
 }
-   div,.l-container {
+   .l-container {
     text-align: center; 
     background-color: var(--color-1);
    }
 
-/* Seccion LucasBranc */
+/* Seccion LucasBranch */
 
 @media (min-width: 541px) and (max-width: 620px) {
     /* Seccion LucasBranc */  
