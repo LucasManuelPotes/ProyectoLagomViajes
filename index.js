@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        const li = document.createElement("li");
-        li.innerHTML = `<strong>${name}:</strong> ${comment}`;
-        commentList.appendChild(li);
+        const lis = document.createElement("lis");
+        lis.innerHTML = `<strong>${name}:</strong> ${comment}`;
+        commentList.appendChild(lis);
 
         nameInput.value = "";
         commentInput.value = "";
