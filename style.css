@@ -28,7 +28,25 @@ body {
 h1, h2 {
     text-align: center;
 }
+/* Seccion LucasBranch */
+h3,.l-title{
+    color: var(--color-2);
+ }
 
+p,.l-subtitle{
+    color: var(--color-2);
+    font-size: var(--letra-l);
+}
+.l-img {
+    max-width: 60%;
+    height: auto; 
+    display: inline-block; 
+    margin: 2px;
+}
+   .l-container {
+    text-align: center; 
+    background-color: var(--color-1);
+   }
 form {
     display: flex;
     flex-direction: column;
@@ -246,3 +264,31 @@ a {
 }
 
 
+/* Seccion LucasBranch */
+
+@media (min-width: 541px) and (max-width: 620px) {
+    /* Seccion LucasBranc */  
+    div,.l-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .l-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h3,.l-title{
+        color: var(--color-2);
+       font-size: var(--letra-s);
+     }
+    
+    p,.l-subtitle{
+        color: var(--color-2);
+        font-size: var(--letra-s);
+    }
+    /* Seccion LucasBranc */
+}
