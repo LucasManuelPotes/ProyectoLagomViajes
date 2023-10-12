@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 :root {
     --title: 'Rajdhani', sans-serif;
     --subtitle: 'Raleway', sans-serif;
@@ -25,28 +26,35 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
 }
-/* Seccion LucasBranch */
-h3,.l-title{
-    color: var(--color-2);
- }
 
-p,.l-subtitle{
+/* Seccion LucasBranch */
+h3,
+.l-title {
+    color: var(--color-2);
+}
+
+p,
+.l-subtitle {
     color: var(--color-2);
     font-size: var(--letra-l);
 }
+
 .l-img {
     max-width: 60%;
-    height: auto; 
-    display: inline-block; 
+    height: auto;
+    display: inline-block;
     margin: 2px;
 }
-   .l-container {
-    text-align: center; 
+
+.l-container {
+    text-align: center;
     background-color: var(--color-1);
-   }
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -89,6 +97,7 @@ li {
     margin-bottom: 10px;
     border-radius: 3px;
 }
+
 .logo1 {
     width: 190px;
     border-radius: 0px 15px 0px 15px;
@@ -99,16 +108,16 @@ li {
 }
 
 .navbar {
-    background: linear-gradient(180deg, rgba(41,112,219,1) 0%, rgba(41,112,219,1) 90%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(41, 112, 219, 1) 0%, rgba(41, 112, 219, 1) 90%, rgba(255, 255, 255, 1) 100%);
 
 }
 
 .offcanvas {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(41,112,219,1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 80%, rgba(41, 112, 219, 1) 100%);
 }
 
 .modal-content {
-    background: linear-gradient(40deg, rgba(41,112,219,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(41,112,219,1) 100%);
+    background: linear-gradient(40deg, rgba(41, 112, 219, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 80%, rgba(41, 112, 219, 1) 100%);
 }
 
 .modal-p {
@@ -116,24 +125,26 @@ li {
     text-align: justify;
 }
 
-.titleh3{
+.titleh3 {
     color: var(--color-2);
 }
 
-.subtitle{
+.subtitle {
     color: var(--color-2);
     font-size: var(--letra-l);
 }
+
 .img {
     max-width: 60%;
-    height: auto; 
-    display: inline-block; 
+    height: auto;
+    display: inline-block;
     margin: 2px;
 }
+
 .container {
-    text-align: center; 
+    text-align: center;
     background-color: var(--color-1);
- 
+
 }
 
 @media (min-width: 541px) and (max-width: 620px) {
@@ -144,13 +155,16 @@ li {
         align-items: center;
         height: 100vh;
     }
+
     .navbar-brand {
         display: none;
     }
+
     .img {
         max-width: 100%;
         height: auto;
     }
+
     .carrusel {
         display: flex;
         flex-direction: column;
@@ -161,15 +175,16 @@ li {
 }
 
 .colordiv {
-    background-color: #2970da;
-    padding: 20px; 
+    background-color: #7CCDCB;
+    padding: 20px;
 }
 
 .buttontam {
-    width: 54%;
-    margin: 20px auto; 
+    width: 58%;
+    margin: 20px auto;
     border-radius: 10px;
-    padding: 10px 0; 
+    padding: 10px 0;
+    padding: 10px 0;
 }
 
 .textimg1 {
@@ -180,6 +195,7 @@ li {
     left: 350px;
 
 }
+
 .textimg2 {
     font-size: 100px;
     color: white;
@@ -187,77 +203,172 @@ li {
     z-index: 4;
     left: 350px;
 }
+
 .textimg3 {
     font-size: 100px;
     color: white;
     position: absolute;
     z-index: 5;
     left: 350px;
-  
+
 }
 
 img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
-    display: block; 
-    margin: 0 auto; 
+    display: block;
+    /* Eliminamos el espacio debajo de las imágenes */
+    margin: 0 auto;
+    /* Centramos horizontalmente las imágenes */
     position: relative;
     z-index: 1;
 }
 
-.im { width: 54%;
-     height: 50px;
-     margin-bottom: 20px;
-     border-radius: 10px 10px 1px 10px;
-     border: solid 1px black;
-     
+.im {
+    width: 54%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 1px 10px;
+    border: solid 1px black;
+
 
 }
+
 .im:hover {
-    transform:scale(0.9) ;; 
-    transition: transform 0.9s ease; 
+    transform: scale(0.9);
+    ;
+    transition: transform 0.9s ease;
     border: solid #fff;
 }
+
 .buttontam:hover {
-    transform:scale(1.1) ;; 
-    transition: transform 0.9s ease; 
+    transform: scale(1.1);
+    ;
+    transition: transform 0.9s ease;
     border: solid #fff;
 }
 
-
-
-a {
-    text-decoration: none;
-    color: white;
+a:hover {
+    color: rgb(69, 6, 245);
 }
-
-
 
 @media (min-width: 541px) and (max-width: 620px) {
     .colordiv {
-        padding: 10px; 
+        padding: 10px;
     }
 
-    .textimg1, .textimg2, .textimg3 {
+    .textimg1,
+    .textimg2,
+    .textimg3 {
         font-size: 80px;
         left: 20px;
 
     }
 
     .buttontam {
-        width: 80%; 
+        width: 80%;
+    }
 }
+
+#logo2 {
+    width: 500px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
-@media (min-width: 620px) and (max-width: 900px){
-    .textimg1, .textimg2, .textimg3 {
-        font-size: 80px; 
+
+.ins {
+    margin-top: 100px;
+}
+
+.Instagram {
+    text-align: center;
+    position: relative;
+}
+
+.Instagram span {
+    z-index: 100;
+    position: relative;
+    padding: 15px;
+}
+
+.Instagram ::after {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 2px;
+    left: 550px;
+    top: 55%;
+    background: black;
+    z-index: 50;
+}
+
+.Instagram ::before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 2px;
+    padding-right: 0px;
+    right: 108%;
+    top: 55%;
+    background: black;
+    z-index: 50;
+}
+
+.Lg {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#carouselExampleSlidesOnly {
+    width: 100%;
+    height: 10vh;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.tic {
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+.tamcar {
+    height: 50vh;
+}
+
+
+.carousel-inner.tamcar {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+@media (max-width: 768px) {
+    #carouselExampleSlidesOnly {
+        max-height: 100px;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 900px) {
+
+    .textimg1,
+    .textimg2,
+    .textimg3 {
+        font-size: 80px;
         left: 20px;
 
     }
 }
-@media (min-width: 200px) and (max-width: 541px){
-    .textimg1, .textimg2, .textimg3 {
-        font-size: 50px; 
+
+@media (min-width: 200px) and (max-width: 541px) {
+
+    .textimg1,
+    .textimg2,
+    .textimg3 {
+        font-size: 50px;
         left: 20px;
 
     }
@@ -267,8 +378,10 @@ a {
 /* Seccion LucasBranch */
 
 @media (min-width: 541px) and (max-width: 620px) {
-    /* Seccion LucasBranc */  
-    div,.l-container {
+
+    /* Seccion LucasBranc */
+    div,
+    .l-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -281,14 +394,17 @@ a {
         height: auto;
     }
 
-    h3,.l-title{
-        color: var(--color-2);
-       font-size: var(--letra-s);
-     }
-    
-    p,.l-subtitle{
+    h3,
+    .l-title {
         color: var(--color-2);
         font-size: var(--letra-s);
     }
+
+    p,
+    .l-subtitle {
+        color: var(--color-2);
+        font-size: var(--letra-s);
+    }
+
     /* Seccion LucasBranc */
 }
