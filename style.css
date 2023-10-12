@@ -117,7 +117,7 @@ li {
     background-color: var(--color-1);
  
 }
-/* ---__-----__------ MEDIA MEDIA MEDIA MEDIA ------__-----__--- */
+
 @media (min-width: 541px) and (max-width: 620px) {
     .container {
         display: flex;
@@ -143,19 +143,19 @@ li {
 }
 
 .colordiv {
-    background-color: #7CCDCB;
-    padding: 20px; /* Añadimos un poco de espacio interno para mejorar la apariencia */
+    background-color: #2970da;
+    padding: 20px; 
 }
 
 .buttontam {
-    width: 58%;
-    margin: 20px auto; /* Centramos horizontalmente y agregamos espacio superior e inferior */
+    width: 54%;
+    margin: 20px auto; 
     border-radius: 10px;
-    padding: 10px 0; /* Agregamos espacio interno para mejorar la apariencia */
+    padding: 10px 0; 
 }
 
 .textimg1 {
-    font-size: 125px;
+    font-size: 100px;
     color: white;
     position: absolute;
     z-index: 4;
@@ -163,14 +163,14 @@ li {
 
 }
 .textimg2 {
-    font-size: 125px;
+    font-size: 100px;
     color: white;
     position: absolute;
     z-index: 4;
     left: 350px;
 }
 .textimg3 {
-    font-size: 125px;
+    font-size: 100px;
     color: white;
     position: absolute;
     z-index: 5;
@@ -179,49 +179,67 @@ li {
 }
 
 img {
-    max-width: 100%; /* Aseguramos que las imágenes se ajusten al ancho de su contenedor */
+    max-width: 100%; 
     height: auto;
-    display: block; /* Eliminamos el espacio debajo de las imágenes */
-    margin: 0 auto; /* Centramos horizontalmente las imágenes */
+    display: block; 
+    margin: 0 auto; 
     position: relative;
     z-index: 1;
 }
+
+.im { width: 54%;
+     height: 50px;
+     margin-bottom: 20px;
+     border-radius: 10px 10px 1px 10px;
+     border: solid 1px black;
+     
+
+}
+.im:hover {
+    transform:scale(0.9) ;; 
+    transition: transform 0.9s ease; 
+    border: solid #fff;
+}
+.buttontam:hover {
+    transform:scale(1.1) ;; 
+    transition: transform 0.9s ease; 
+    border: solid #fff;
+}
+
+
 
 a {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
-    color: yellow;
-}
 
-/* Media Query para pantallas entre 541px y 620px */
+
 @media (min-width: 541px) and (max-width: 620px) {
     .colordiv {
-        padding: 10px; /* Reducimos el espacio interno en pantallas más pequeñas */
+        padding: 10px; 
     }
 
     .textimg1, .textimg2, .textimg3 {
-        font-size: 80px; /* Reducimos el tamaño del texto en pantallas más pequeñas */
+        font-size: 80px;
         left: 20px;
 
     }
 
     .buttontam {
-        width: 80%; /* Reducimos el ancho del botón en pantallas más pequeñas */
+        width: 80%; 
 }
 }
 @media (min-width: 620px) and (max-width: 900px){
     .textimg1, .textimg2, .textimg3 {
-        font-size: 80px; /* Reducimos el tamaño del texto en pantallas más pequeñas */
+        font-size: 80px; 
         left: 20px;
 
     }
 }
 @media (min-width: 200px) and (max-width: 541px){
     .textimg1, .textimg2, .textimg3 {
-        font-size: 50px; /* Reducimos el tamaño del texto en pantallas más pequeñas */
+        font-size: 50px; 
         left: 20px;
 
     }
