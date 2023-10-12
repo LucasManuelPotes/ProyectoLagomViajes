@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --title: 'Rajdhani', sans-serif;
+    --subtitle: 'Raleway', sans-serif;
+    --color-1: #4892ca;
+    --color-2: #036156;
+    --color-3: #0b2e49;
+    --color-4: #cecece;
+    --letra-l: 22px;
+    --letra-s: 10px;
+    --letra-m: 17px;
+    --color-active: orange;
+}
+
+.comments {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.comment-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.logo1 {
+    width: 190px;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.modalLi {
+    list-style-type: none
+}
+
+.navbar {
+    background: linear-gradient(180deg, rgba(41,112,219,1) 0%, rgba(41,112,219,1) 90%, rgba(255,255,255,1) 100%);
+
+}
+
+.offcanvas {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(41,112,219,1) 100%);
+}
+
+.modal-content {
+    background: linear-gradient(40deg, rgba(41,112,219,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(41,112,219,1) 100%);
+}
+
+.modal-p {
+    text-indent: 10%;
+    text-align: justify;
+}
+
+.titleh3{
+    color: var(--color-2);
+}
+
+.subtitle{
+    color: var(--color-2);
+    font-size: var(--letra-l);
+}
+.img {
+    max-width: 60%;
+    height: auto; 
+    display: inline-block; 
+    margin: 2px;
+}
+.container {
+    text-align: center; 
+    background-color: var(--color-1);
+ 
+}
+
+@media (min-width: 541px) and (max-width: 620px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+    .carrusel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+.colordiv {
+    background-color: #2970da;
+    padding: 20px; 
+}
+
+.buttontam {
+    width: 54%;
+    margin: 20px auto; 
+    border-radius: 10px;
+    padding: 10px 0; 
+}
+
+.textimg1 {
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    z-index: 4;
+    left: 350px;
+
+}
+.textimg2 {
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    z-index: 4;
+    left: 350px;
+}
+.textimg3 {
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    z-index: 5;
+    left: 350px;
+  
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    position: relative;
+    z-index: 1;
+}
+
+.im { width: 54%;
+     height: 50px;
+     margin-bottom: 20px;
+     border-radius: 10px 10px 1px 10px;
+     border: solid 1px black;
+     
+
+}
+.im:hover {
+    transform:scale(0.9) ;; 
+    transition: transform 0.9s ease; 
+    border: solid #fff;
+}
+.buttontam:hover {
+    transform:scale(1.1) ;; 
+    transition: transform 0.9s ease; 
+    border: solid #fff;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media (min-width: 541px) and (max-width: 620px) {
+    .colordiv {
+        padding: 10px; 
+    }
+
+    .textimg1, .textimg2, .textimg3 {
+        font-size: 80px;
+        left: 20px;
+
+    }
+
+    .buttontam {
+        width: 80%; 
+}
+}
+@media (min-width: 620px) and (max-width: 900px){
+    .textimg1, .textimg2, .textimg3 {
+        font-size: 80px; 
+        left: 20px;
+
+    }
+}
+@media (min-width: 200px) and (max-width: 541px){
+    .textimg1, .textimg2, .textimg3 {
+        font-size: 50px; 
+        left: 20px;
+
+    }
+}
+
+
