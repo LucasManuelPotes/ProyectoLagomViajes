@@ -314,8 +314,10 @@ a:hover {
     background: black;
     z-index: 50;
 }
-
-.Lg {
+.mf{
+    margin-top: 120px;
+}
+.Lg{
     font-size: 30px;
     text-align: center;
     margin-top: 40px;
