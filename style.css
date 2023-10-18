@@ -7,10 +7,12 @@ body {
 :root {
     --title: 'Rajdhani', sans-serif;
     --subtitle: 'Raleway', sans-serif;
+    --title: 'font-family', 'Roboto', sans-serif;
     --color-1: #4892ca;
     --color-2: #036156;
     --color-3: #0b2e49;
     --color-4: #cecece;
+    --letra-xl:28px;
     --letra-l: 22px;
     --letra-s: 10px;
     --letra-m: 17px;
@@ -35,25 +37,45 @@ h2 {
 h3,
 .l-title {
     color: var(--color-2);
+    font-family:var(--title);
+    letter-spacing: .2rem;
+    font-size:40px ;
+    font-weight: bolder;
+    margin: 15px;
+
 }
 
 p,
 .l-subtitle {
     color: var(--color-2);
     font-size: var(--letra-l);
+    letter-spacing: .1rem;
 }
 
 .l-img {
     max-width: 60%;
     height: auto;
     display: inline-block;
-    margin: 2px;
+    margin: 5px;
 }
 
 .l-container {
     text-align: center;
     background-color: var(--color-1);
 }
+
+.l-ef{
+    margin-bottom: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: solid 1px black;
+}
+
+.l-ef:hover {
+    transform: scale(1.1);
+    transition: transform 0.9s ease;
+    border: solid #fff;
+}
+/* Fin Seccion LucasBranch */
 
 form {
     display: flex;
