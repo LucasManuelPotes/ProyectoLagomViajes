@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    position: relative;
+    height: 500px;
+    background-image: url(./assets/imagenes_paises/Cancun_mexico.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    padding: 2rem;
+    text-align: center;
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.color1{
+    color: white;
+    text-align: center;
+}
+.m1{
+    margin-top: 10px;
+}
+.m2{
+    margin-top: 120px;
+}
+
+.servicio_1 {
+    width: 300px;
+    height: 200px; /* Establece la altura del contenedor según tus necesidades */
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(./assets/imagenes_paises/mexico_servicio_2.jpg);
+    background-size: cover;
+}
+.servicio_2 {
+    width: 300px;
+    height: 200px; /* Establece la altura del contenedor según tus necesidades */
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(./assets/imagenes_paises/serviciomexico.jpg);
+    background-size: cover;
+}
+.servicio_3 {
+    width: 300px;
+    height: 200px; /* Establece la altura del contenedor según tus necesidades */
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(./assets/imagenes_paises/cancun_gastronomia.png);
+    background-size: cover;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
