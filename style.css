@@ -239,21 +239,15 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    /* Eliminamos el espacio debajo de las imágenes */
-    margin: 0 auto;
-    /* Centramos horizontalmente las imágenes */
-    position: relative;
-    z-index: 1;
+  margin: 0 auto;
 }
 
 .im {
-    width: 54%;
+    width: 80%;
     height: 50px;
     margin-bottom: 20px;
     border-radius: 10px 10px 1px 10px;
     border: solid 1px black;
-
-
 }
 
 .im:hover {
