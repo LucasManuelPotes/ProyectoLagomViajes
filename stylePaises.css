@@ -8,7 +8,6 @@ body {
 header {
     position: relative;
     height: 500px;
-    background-image: url(./assets/imagenes_paises/Cancun_mexico.jpg); 
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -17,6 +16,22 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+/* FOTO DE LOS HEADERS DE CADA PAIS */
+.header_francia{
+    background-image: url(./assets/imagenes_paises/francia.jpg);  
+}
+.header_Mexico{
+    background-image: url(./assets/imagenes_paises/Mexico.jpg); 
+}
+/* FIN DE FOTO DE CADA PAIS */
+.titulo_pais{
+    color: white;
+    font-size: 70px;
+}
+.subtitulo_pais{
+    color: white;
+    font-size: 30px;  
 }
 
 .info {
@@ -41,6 +56,11 @@ header {
     margin-top: 120px;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 .servicio_1 {
     width: 300px;
     height: 200px; /* Establece la altura del contenedor según tus necesidades */
@@ -49,8 +69,13 @@ header {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-image: url(./assets/imagenes_paises/mexico_servicio_2.jpg);
     background-size: cover;
+}
+.servicio_1:hover,.servicio_2:hover,.servicio_3:hover {
+    transform: scale(0.9);
+    ;
+    transition: transform 0.9s ease;
+    border: solid #fff;
 }
 .servicio_2 {
     width: 300px;
@@ -60,7 +85,6 @@ header {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-image: url(./assets/imagenes_paises/serviciomexico.jpg);
     background-size: cover;
 }
 .servicio_3 {
@@ -71,9 +95,31 @@ header {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-image: url(./assets/imagenes_paises/cancun_gastronomia.png);
-    background-size: cover;
+   background-size: cover; 
 }
+
+/* FOTOS DE SERVICIOS y PAQUETES SEGUN EL PAIS */
+/* MEXICO */
+.servicio_mexico1{
+  background-image: url(./assets/imagenes_paises/mexico_servicio1.jpg);
+}
+.servicio_mexico2{
+  background-image: url(./assets/imagenes_paises/mexico_servicio2.jpg);   
+}
+.servicio_mexico3{
+background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
+}
+/* FRANCIA */
+.servicio_francia1{
+    background-image: url(./assets/imagenes_paises/francia_servicio1.jpg)
+  }
+.servicio_francia2{
+    background-image: url(./assets/imagenes_paises/Francia_servicio2.jpg);   
+  }
+.servicio_francia3{
+  background-image: url(./assets/imagenes_paises/Francia_servicio3.jpg);
+  }
+/* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
 footer {
     background-color: #333;
