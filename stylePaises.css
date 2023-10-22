@@ -24,6 +24,9 @@ header {
 .header_Mexico{
     background-image: url(./assets/imagenes_paises/Mexico.jpg); 
 }
+.header_italia{
+    background-image: url(./assets/imagenes_paises/Italia.jpg); 
+}
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
     color: white;
@@ -63,7 +66,7 @@ a{
 
 .servicio_1 {
     width: 300px;
-    height: 200px; /* Establece la altura del contenedor según tus necesidades */
+    height: 200px; 
     margin: 1rem;
     padding: 1rem;
     background-color: #fff;
@@ -79,7 +82,7 @@ a{
 }
 .servicio_2 {
     width: 300px;
-    height: 200px; /* Establece la altura del contenedor según tus necesidades */
+    height: 200px; 
     margin: 1rem;
     padding: 1rem;
     background-color: #fff;
@@ -89,7 +92,7 @@ a{
 }
 .servicio_3 {
     width: 300px;
-    height: 200px; /* Establece la altura del contenedor según tus necesidades */
+    height: 200px; 
     margin: 1rem;
     padding: 1rem;
     background-color: #fff;
@@ -119,6 +122,16 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
 .servicio_francia3{
   background-image: url(./assets/imagenes_paises/Francia_servicio3.jpg);
   }
+  /* ITALIA */
+  .servicio_italia1{
+    background-image: url(./assets/imagenes_paises/italia_servicio1.jpg)
+  }
+.servicio_italia2{
+    background-image: url(./assets/imagenes_paises/italia_servicio2.jpg);   
+  }
+.servicio_italia3{
+  background-image: url(./assets/imagenes_paises/italia_servicio3.jpg);
+  }  
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
 footer {
