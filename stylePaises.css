@@ -42,6 +42,9 @@ header {
 .header_turquia{
   background-image: url(./assets/imagenes_paises/turquia.jpg);
 }
+.header_chile{
+  background-image: url(./assets/imagenes_paises/Chile.jpg);
+}
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
     color: white;
@@ -197,6 +200,16 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
   .servicio_turquia3{
     background-image: url(./assets/imagenes_paises/turquia_servicios3.jpg);
   }
+    /* CHILE*/
+    .servicio_chile1{
+      background-image: url(./assets/imagenes_paises/chile_servicio1.jpg);
+    }
+    .servicio_chile2{
+      background-image: url(./assets/imagenes_paises/chile_servicio2.jpg);
+    }
+    .servicio_chile3{
+      background-image: url(./assets/imagenes_paises/chile_servicio3.jpg);
+    }
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
 footer {
