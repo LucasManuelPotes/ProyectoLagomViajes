@@ -27,6 +27,21 @@ header {
 .header_italia{
     background-image: url(./assets/imagenes_paises/Italia.jpg); 
 }
+.header_argentina{
+    background-image: url(./assets/imagenes_paises/argentina.jpg);
+}
+.header_estadosunidos{
+  background-image: url(./assets/imagenes_paises/estadosunidos.jpg);
+}
+.header_republicadominicana{
+  background-image: url(./assets/imagenes_paises/repdominicana.jpg);
+}
+.header_españa{
+  background-image: url(./assets/imagenes_paises/españa.jpg);
+}
+.header_turquia{
+  background-image: url(./assets/imagenes_paises/turquia.jpg);
+}
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
     color: white;
@@ -132,6 +147,56 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
 .servicio_italia3{
   background-image: url(./assets/imagenes_paises/italia_servicio3.jpg);
   }  
+  /* ARGENTINA */
+  .servicio_argentina1{
+    background-image: url(./assets/imagenes_paises/argentina_servicios1.jpg);
+  }
+  .servicio_argentina2{
+    background-image: url(./assets/imagenes_paises/argentina_servicios2.jpg);
+  }
+  .servicio_argentina3{
+    background-image: url(./assets/imagenes_paises/argentina_servicio3.jpg);
+  }
+  /* ESTADOS UNIDOS */
+  .servicio_estadosunidos1{
+    background-image: url(./assets/imagenes_paises/estadosunidos_servicios1.jpg);
+  }
+  .servicio_estadosunidos2{
+    background-image: url(./assets/imagenes_paises/estadosunidos_servicios2.jpg);
+  }
+  .servicio_estadosunidos3{
+    background-image: url(./assets/imagenes_paises/estadosunidos_servicions3.jpg);
+  }
+  /* REPUBLICA DOMINICANA */
+  .servicio_repdominicana1{
+    background-image: url(./assets/imagenes_paises/repdominicana_servicios1.jpg) ;
+  }
+  .servicio_repdominicana2{
+    background-image: url(./assets/imagenes_paises/repdominicana_servicions2.jpg) ;
+  }
+  .servicio_repdominicana3{
+    background-image: url(./assets/imagenes_paises/repdominicana_servicios3.jpg) ;
+  }
+  /* ESPAÑA */
+  .servicio_españa1{
+    background-image: url(./assets/imagenes_paises/españa_servicios1.jpg);
+  }
+  .servicio_españa2{
+    background-image: url(./assets/imagenes_paises/españa_servicios2.jpg);
+  }
+  .servicio_españa3{
+    background-image: url(./assets/imagenes_paises/españa_servicios3.jpg);
+  }
+  /* TURQUIA */
+  .servicio_turquia1{
+    background-image: url(./assets/imagenes_paises/turquia_servicios1.jpg);
+  }
+  .servicio_turquia2{
+    background-image: url(./assets/imagenes_paises/turquia_servicios2.jpg);
+  }
+  .servicio_turquia3{
+    background-image: url(./assets/imagenes_paises/turquia_servicios3.jpg);
+  }
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
 footer {
