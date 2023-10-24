@@ -18,11 +18,21 @@
 
     <nav class="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"> Inicio </a>
-            <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Tu próximo viaje..." aria-label="Search">
-                <button class="btn btn-light" type="submit">Buscar</button>
-            </form>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Destinos
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/pages/argentina.html">Argentina</a></li>
+                    <li><a class="dropdown-item" href="/pages/Espania.html">España</a></li>
+                    <li><a class="dropdown-item" href="/pages/EstadosUnidos.html">EstadosUnidos</a></li>
+                    <li><a class="dropdown-item" href="/pages/Francia.html">Francia</a></li>
+                    <li><a class="dropdown-item" href="/pages/Italia.html">Italia</a></li>
+                    <li><a class="dropdown-item" href="/pages/Mexico.html">Mexico</a></li>
+                </ul>
+            </li>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar1" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,20 +61,6 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="#">Paquetes</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Destinos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Nacionales</a></li>
-                            <li><a class="dropdown-item" href="#">Internacionales</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Ofertas de ultimo momento</a></li>
                         </ul>
                     </li>
                 </ul>
