@@ -134,6 +134,10 @@ li {
     display: none;
 }
 
+#mailto_, #phone_ {
+    display: none;
+}
+
 .modalLi {
     list-style-type: none;
     border: none
@@ -157,7 +161,7 @@ li {
 
 .lagom{
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 
 .desplegableLi{
@@ -192,9 +196,9 @@ li {
     font-size: 41px
 }
 
-.fullScreen {
+#carouselExample, .lagom {
     position: relative;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .offcanvas{
@@ -445,6 +449,14 @@ a:hover {
 }
 
 @media (min-width: 200px) and (max-width: 541px) {
+
+    #mailto, #phone {
+        display: none;
+    }
+
+    #mailto_, #phone_ {
+        display: block;
+    }
 
     .textimg1,
     .textimg2,
