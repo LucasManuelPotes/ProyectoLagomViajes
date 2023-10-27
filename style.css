@@ -114,6 +114,7 @@ ul {
 }
 
 li {
+    list-style: none;
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
@@ -125,17 +126,83 @@ li {
     border-radius: 0px 15px 0px 15px;
 }
 
+.logo_header {
+    width: 150px; 
+}
+
+.logoIndividual{
+    display: none;
+}
+
+#mailto_, #phone_ {
+    display: none;
+}
+
 .modalLi {
-    list-style-type: none
+    list-style-type: none;
+    border: none
 }
 
 .navbar {
     background: linear-gradient(180deg, rgba(41, 112, 219, 1) 0%, rgba(41, 112, 219, 1) 90%, rgba(255, 255, 255, 1) 100%);
-
+    position: fixed !important;
+    top: 0%;
+    width: 100%;
+    z-index: 99999;
 }
 
 .offcanvas {
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 80%, rgba(41, 112, 219, 1) 100%);
+}
+
+.dropdown {
+    border: none;
+}
+
+.lagom{
+    width: 100%;
+    height: 90%;
+}
+
+.desplegableLi{
+    border: none;
+    margin: none;
+    padding: 0px;
+}
+
+#redes {
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 50px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10%;
+    right: 0%;
+    z-index: 99998;
+    align-items: center;
+}
+
+.net-item {
+    font-size: 40px;
+    color: white;
+    opacity: 50%;
+    margin-left: 7px;
+}
+
+.net-item:hover {
+    color: white;
+    opacity: 100%;
+    font-size: 41px
+}
+
+#carouselExample, .lagom {
+    position: relative;
+    margin-top: 5%;
+}
+
+.offcanvas{
+    z-index: 99999;
 }
 
 .modal-content {
@@ -383,6 +450,14 @@ a:hover {
 
 @media (min-width: 200px) and (max-width: 541px) {
 
+    #mailto, #phone {
+        display: none;
+    }
+
+    #mailto_, #phone_ {
+        display: block;
+    }
+
     .textimg1,
     .textimg2,
     .textimg3 {
@@ -390,6 +465,15 @@ a:hover {
         left: 20px;
 
     }
+    .logo_header {
+        display: none; 
+    }
+    
+    .logoIndividual {
+        display: block;
+        width: 70px;
+    }
+    
 }
 
 
