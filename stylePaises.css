@@ -42,6 +42,11 @@ header {
 .header_turquia{
   background-image: url(./assets/imagenes_paises/turquia.jpg);
 }
+.header_china{
+  background-image: url(./assets/imagenes_paises/china.jpg);
+}
+.header_japon{
+  background-image: url(./assets/imagenes_paises/japon.jpg);
 
 .header_brasil{
   background-image: url(./assets/imagenes_paises/Brasil.jpg);
@@ -208,6 +213,26 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
   .servicio_turquia3{
     background-image: url(./assets/imagenes_paises/turquia_servicios3.jpg);
   }
+    /* CHINA */
+    .servicio_china1{
+      background-image: url(./assets/imagenes_paises/china_servicios1.jpg);
+    }
+    .servicio_china2{
+      background-image: url(./assets/imagenes_paises/china_servicios2.jpg);
+    }
+    .servicio_china3{
+      background-image: url(./assets/imagenes_paises/china_servicios3.jpg);
+    }
+    /* JAPON */
+    .servicio_japon1{
+      background-image: url(./assets/imagenes_paises/japon_servicios1.jpg);
+    }
+    .servicio_japon2{
+      background-image: url(./assets/imagenes_paises/japon_servicios2.jpg);
+    }
+    .servicio_japon3{
+      background-image: url(./assets/imagenes_paises/japon_servicios3.jpg);
+    }
   /* BRASIL */
   .servicio_brasil1{
     background-image: url(./assets/imagenes_paises/brasil_servicios1.jpg);
