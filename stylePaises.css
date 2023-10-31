@@ -42,8 +42,16 @@ header {
 .header_turquia{
   background-image: url(./assets/imagenes_paises/turquia.jpg);
 }
+
+.header_brasil{
+  background-image: url(./assets/imagenes_paises/Brasil.jpg);
+}
+.header_panama{
+  background-image: url(./assets/imagenes_paises/panama.jpg);
+
 .header_chile{
   background-image: url(./assets/imagenes_paises/Chile.jpg);
+
 }
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
@@ -200,6 +208,27 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
   .servicio_turquia3{
     background-image: url(./assets/imagenes_paises/turquia_servicios3.jpg);
   }
+  /* BRASIL */
+  .servicio_brasil1{
+    background-image: url(./assets/imagenes_paises/brasil_servicios1.jpg);
+  }
+  .servicio_brasil2{
+    background-image: url(./assets/imagenes_paises/brasil_servicios2.jpg);
+  }
+  .servicio_brasil3{
+    background-image: url(./assets/imagenes_paises/brasil_servicios3.jpg);
+  }
+  /* PANAMA */
+  .servicio_panama1{
+    background-image: url(./assets/imagenes_paises/panama_servicios1.jpg);
+  }
+  .servicio_panama2{
+    background-image: url(./assets/imagenes_paises/panama_servicios2.jpg);
+  }
+  .servicio_panama3{
+    background-image: url(./assets/imagenes_paises/panama_servicios3.jpg);
+  }
+  /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
     /* CHILE*/
     .servicio_chile1{
       background-image: url(./assets/imagenes_paises/chile_servicio1.jpg);
@@ -210,6 +239,7 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
     .servicio_chile3{
       background-image: url(./assets/imagenes_paises/chile_servicio3.jpg);
     }
+  
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
 footer {
