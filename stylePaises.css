@@ -69,6 +69,21 @@ header {
 .header_canada{
   background-image: url(./assets/imagenes_paises/canada.jpg);
 }
+.header_colombia{
+  background-image: url(./assets/imagenes_paises/colombia.jpg);  
+}
+.header_venezuela{
+  background-image: url(./assets/imagenes_paises/venezuela.jpg);  
+}
+.header_peru{
+  background-image: url(./assets/imagenes_paises/peru.jpg);  
+}
+.header_paraguay{
+  background-image: url(./assets/imagenes_paises/paraguay.jpg);  
+}
+.header_uruguay{
+  background-image: url(./assets/imagenes_paises/uruguay.jpg); 
+  
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
     color: white;
@@ -144,6 +159,7 @@ a{
 }
 
 /* FOTOS DE SERVICIOS y PAQUETES SEGUN EL PAIS */
+  
 /* MEXICO */
 .servicio_mexico1{
   background-image: url(./assets/imagenes_paises/mexico_servicio1.jpg);
@@ -264,7 +280,6 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
   .servicio_panama3{
     background-image: url(./assets/imagenes_paises/panama_servicios3.jpg);
   }
-
   /* JAMAICA */
   .servicio_jamaica1{
     background-image: url(./assets/imagenes_paises/jamaica_servicios1.jpg);
@@ -275,7 +290,6 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
   .servicio_jamaica3{
     background-image: url(./assets/imagenes_paises/jamaica_servicios3.jpg);
   }
-
   /* CUBA */
   .servicio_cuba1{
     background-image: url(./assets/imagenes_paises/cuba_servicios1.jpg);
@@ -286,7 +300,6 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
   .servicio_cuba3{
     background-image: url(./assets/imagenes_paises/cuba_servicios3.jpg);
   }
-
   /* PUERTO RICO */
   .servicio_puertorico1{
     background-image: url(./assets/imagenes_paises/puertorico_servicios1.jpg);
@@ -297,7 +310,6 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
   .servicio_puertorico3{
     background-image: url(./assets/imagenes_paises/puertorico_servicios3.jpg);
   }
-
   /* CANADA */
   .servicio_canada1{
     background-image: url(./assets/imagenes_paises/canada_servicios1.jpg);
@@ -308,7 +320,6 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
   .servicio_canada3{
     background-image: url(./assets/imagenes_paises/canada_servicios3.jpg);
   }
-  /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
     /* CHILE*/
     .servicio_chile1{
       background-image: url(./assets/imagenes_paises/chile_servicio1.jpg);
@@ -319,6 +330,56 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
     .servicio_chile3{
       background-image: url(./assets/imagenes_paises/chile_servicio3.jpg);
     }
+    /* COLOMBIA */
+.servicio_colombia1{
+  background-image: url(./assets/imagenes_paises/colombia_servicio1.jpg)
+}
+.servicio_colombia2{
+  background-image: url(./assets/imagenes_paises/colombia_servicio2.jpg);   
+}
+.servicio_colombia3{
+background-image: url(./assets/imagenes_paises/colombia_servicio3.jpg);
+}
+/* VENEZUELA */
+.servicio_venezuela1{
+  background-image: url(./assets/imagenes_paises/venezuela_servicio1.jpg)
+}
+.servicio_venezuela2{
+  background-image: url(./assets/imagenes_paises/venezuela_servicio2.jpg);   
+}
+.servicio_venezuela3{
+background-image: url(./assets/imagenes_paises/venezuela_servicio3.jpg);
+}
+/* PERÚ */
+.servicio_peru1{
+  background-image: url(./assets/imagenes_paises/peru_servicio1.jpg)
+}
+.servicio_peru2{
+  background-image: url(./assets/imagenes_paises/peru_servicio2.jpg);   
+}
+.servicio_peru3{
+background-image: url(./assets/imagenes_paises/peru_servicio3.jpg);
+}
+/* PARAGUAY */
+.servicio_paraguay1{
+  background-image: url(./assets/imagenes_paises/paraguay_servicio1.jpg)
+}
+.servicio_paraguay2{
+  background-image: url(./assets/imagenes_paises/paraguay_servicio2.jpg);   
+}
+.servicio_paraguay3{
+background-image: url(./assets/imagenes_paises/paraguay_servicio3.jpg);
+}
+/* URUGUAY */
+.servicio_uruguay1{
+  background-image: url(./assets/imagenes_paises/uruguay_servicio1.jpg)
+}
+.servicio_uruguay2{
+  background-image: url(./assets/imagenes_paises/uruguay_servicio2.jpg);   
+}
+.servicio_uruguay3{
+background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
+}
   
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
