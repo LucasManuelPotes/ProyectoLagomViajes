@@ -82,7 +82,17 @@ header {
   background-image: url(./assets/imagenes_paises/paraguay.jpg);  
 }
 .header_uruguay{
-  background-image: url(./assets/imagenes_paises/uruguay.jpg);} 
+  background-image: url(./assets/imagenes_paises/uruguay.jpg);
+} 
+.header_grecia{
+  background-image: url(./assets/imagenes_paises/grecia.jpg);
+}
+.header_alemania{
+  background-image: url(./assets/imagenes_paises/alemania.jpg);
+}
+.header_marruecos{
+  background-image: url(./assets/imagenes_paises/marruecos.jpg);
+}
   
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
@@ -380,6 +390,36 @@ background-image: url(./assets/imagenes_paises/paraguay_servicio3.jpg);
 .servicio_uruguay3{
 background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
 }
+       /* GRECIA*/
+  .servicio_grecia1{
+    background-image: url(./assets/imagenes_paises/grecia_servicio1.jpg);
+  }
+  .servicio_grecia2{
+    background-image: url(./assets/imagenes_paises/grecia_servicio2.jpg);
+  }
+  .servicio_grecia3{
+    background-image: url(./assets/imagenes_paises/grecia_servicio3.jpg);
+  }
+        /* ALEMANIA*/
+  .servicio_alemania1{
+   background-image: url(./assets/imagenes_paises/alemania_servicio1.jpg);
+  }
+  .servicio_alemania2{
+    background-image: url(./assets/imagenes_paises/alemania_servicio2.jpg);
+  }
+  .servicio_alemania3{
+    background-image: url(./assets/imagenes_paises/alemania_servicio3.jpg);
+  }
+    /*MARRUECOS*/
+ .servicio_marruecos1{
+    background-image: url(./assets/imagenes_paises/marruecos_servicio1.jpg);
+  }
+  .servicio_marruecos2{
+    background-image: url(./assets/imagenes_paises/marruecos_servicio2.jpg);
+  }
+  .servicio_marruecos3{
+     background-image: url(./assets/imagenes_paises/marruecos_servicio3.jpg);
+ }   
   
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
