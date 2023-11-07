@@ -42,6 +42,21 @@ header {
 .header_turquia{
   background-image: url(./assets/imagenes_paises/turquia.jpg);
 }
+.header_colombia{
+  background-image: url(./assets/imagenes_paises/colombia.jpg);  
+}
+.header_venezuela{
+  background-image: url(./assets/imagenes_paises/venezuela.jpg);  
+}
+.header_peru{
+  background-image: url(./assets/imagenes_paises/peru.jpg);  
+}
+.header_paraguay{
+  background-image: url(./assets/imagenes_paises/paraguay.jpg);  
+}
+.header_uruguay{
+  background-image: url(./assets/imagenes_paises/uruguay.jpg);  
+}
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
     color: white;
@@ -197,6 +212,56 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
   .servicio_turquia3{
     background-image: url(./assets/imagenes_paises/turquia_servicios3.jpg);
   }
+  /* COLOMBIA */
+.servicio_colombia1{
+  background-image: url(./assets/imagenes_paises/colombia_servicio1.jpg)
+}
+.servicio_colombia2{
+  background-image: url(./assets/imagenes_paises/colombia_servicio2.jpg);   
+}
+.servicio_colombia3{
+background-image: url(./assets/imagenes_paises/colombia_servicio3.jpg);
+}
+/* VENEZUELA */
+.servicio_venezuela1{
+  background-image: url(./assets/imagenes_paises/venezuela_servicio1.jpg)
+}
+.servicio_venezuela2{
+  background-image: url(./assets/imagenes_paises/venezuela_servicio2.jpg);   
+}
+.servicio_venezuela3{
+background-image: url(./assets/imagenes_paises/venezuela_servicio3.jpg);
+}
+/* PERÚ */
+.servicio_peru1{
+  background-image: url(./assets/imagenes_paises/peru_servicio1.jpg)
+}
+.servicio_peru2{
+  background-image: url(./assets/imagenes_paises/peru_servicio2.jpg);   
+}
+.servicio_peru3{
+background-image: url(./assets/imagenes_paises/peru_servicio3.jpg);
+}
+/* PARAGUAY */
+.servicio_paraguay1{
+  background-image: url(./assets/imagenes_paises/paraguay_servicio1.jpg)
+}
+.servicio_paraguay2{
+  background-image: url(./assets/imagenes_paises/paraguay_servicio2.jpg);   
+}
+.servicio_paraguay3{
+background-image: url(./assets/imagenes_paises/paraguay_servicio3.jpg);
+}
+/* URUGUAY */
+.servicio_uruguay1{
+  background-image: url(./assets/imagenes_paises/uruguay_servicio1.jpg)
+}
+.servicio_uruguay2{
+  background-image: url(./assets/imagenes_paises/uruguay_servicio2.jpg);   
+}
+.servicio_uruguay3{
+background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
+}
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
 footer {
