@@ -47,16 +47,27 @@ header {
 }
 .header_japon{
   background-image: url(./assets/imagenes_paises/japon.jpg);
-
+}
 .header_brasil{
   background-image: url(./assets/imagenes_paises/Brasil.jpg);
 }
 .header_panama{
   background-image: url(./assets/imagenes_paises/panama.jpg);
-
+}
 .header_chile{
   background-image: url(./assets/imagenes_paises/Chile.jpg);
-
+}
+.header_jamaica{
+  background-image: url(./assets/imagenes_paises/jamaica.jpg);
+}
+.header_cuba{
+  background-image: url(./assets/imagenes_paises/cuba.jpg);
+}
+.header_puertorico{
+  background-image: url(./assets/imagenes_paises/puertorico.jpg);
+}
+.header_canada{
+  background-image: url(./assets/imagenes_paises/canada.jpg);
 }
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
@@ -252,6 +263,50 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
   }
   .servicio_panama3{
     background-image: url(./assets/imagenes_paises/panama_servicios3.jpg);
+  }
+
+  /* JAMAICA */
+  .servicio_jamaica1{
+    background-image: url(./assets/imagenes_paises/jamaica_servicios1.jpg);
+  }
+  .servicio_jamaica2{
+    background-image: url(./assets/imagenes_paises/jamaica_servicios2.jpg);
+  }
+  .servicio_jamaica3{
+    background-image: url(./assets/imagenes_paises/jamaica_servicios3.jpg);
+  }
+
+  /* CUBA */
+  .servicio_cuba1{
+    background-image: url(./assets/imagenes_paises/cuba_servicios1.jpg);
+  }
+  .servicio_cuba2{
+    background-image: url(./assets/imagenes_paises/cuba_servicios2.jpg);
+  }
+  .servicio_cuba3{
+    background-image: url(./assets/imagenes_paises/cuba_servicios3.jpg);
+  }
+
+  /* PUERTO RICO */
+  .servicio_puertorico1{
+    background-image: url(./assets/imagenes_paises/puertorico_servicios1.jpg);
+  }
+  .servicio_puertorico2{
+    background-image: url(./assets/imagenes_paises/puertorico_servicios2.jpg);
+  }
+  .servicio_puertorico3{
+    background-image: url(./assets/imagenes_paises/puertorico_servicios3.jpg);
+  }
+
+  /* CANADA */
+  .servicio_canada1{
+    background-image: url(./assets/imagenes_paises/canada_servicios1.jpg);
+  }
+  .servicio_canada2{
+    background-image: url(./assets/imagenes_paises/canada_servicios2.jpg);
+  }
+  .servicio_canada3{
+    background-image: url(./assets/imagenes_paises/canada_servicios3.jpg);
   }
   /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
     /* CHILE*/
