@@ -18,26 +18,150 @@
 
 <header>
 
-    <nav class="navbar">
+    <nav class="navbar d-flex">
         <div class="container-fluid">
 
             <a class="logo_header" href="#"><img src="/assets/lagomTransparente.png" alt="logoIndividual"></a>    
-            <a class="logoIndividual" href="#"><img src="/assets/logo-individual.png" alt="logo"></a>          
+            <a class="logoIndividual" href="#"><img src="/assets/logo-individual.png" alt="logo"></a>
+
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                     <i class="fa-solid fa-plane-departure"></i> Destinos
                 </a>
                 <ul class="dropdown-menu">
-                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Argentina.html">Argentina</a></li>
-                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/España.html">España</a></li>
-                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Estadosunidos.html">Estados Unidos</a></li>
-                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Francia.html">Francia</a></li>
-                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Italia.html">Italia</a></li>
-                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Mexico.html">Mexico</a></li>
-                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Republicadominicana.html">República Dominicana</a></li>
-                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Turquia.html">Turquía</a></li>
+                    <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Norteamérica
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Estadosunidos.html">Estados Unidos</a></li>
+                            <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Canada.html">Canadá</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Centroamérica
+                        </a>
+                        <ul class="dropdown-menu">
+                            <div class="row desplegableContinente">
+                                <div class="col-sm-6">
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Mexico.html">México</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Republicadominicana.html">República Dominicana</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Panama.html">Panamá</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Puertorico.html">Puerto Rico</a></li>
+                                </div>
+                                <div class="col-sm-6">
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Curazao.html">Curazao</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Aruba.html">Aruba</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Jamaica.html">Jamaica</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Cuba.html">Cuba</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sudamérica
+                        </a>
+                        <ul class="dropdown-menu">
+                            <div class="row desplegableContinente">
+                                <div class="col-sm-6">
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Argentina.html">Argentina</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Brasil.html">Brasil</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Chile.html">Chile</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Uruguay.html">Uruguay</a></li>
+                                </div>
+                                <div class="col-sm-6">
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Peru.html">Perú</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Colombia.html">Colombia</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Venezuela.html">Venezuela</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Paraguay.html">Paraguay</a></li>
+
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Europa
+                        </a>
+                        <ul class="dropdown-menu">
+                            
+                            <div class="row desplegableContinente">
+                                <div class="col-sm-6">
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/España.html">España</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Francia.html">Francia</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Italia.html">Italia</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Portugal.html">Portugal</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Irlanda.html">Irlanda</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Reinounido.html">Reino Unido</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Belgica.html">Bélgica</a></li>
+                                </div>
+                                <div class="col-sm-6">
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/PaisesBajos.html">Paises Bajos</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Alemania.html">Alemania</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Republicacheca.html">República Checa</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Suiza.html">Suiza</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Grecia.html">Grecia</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Croacia.html">Croacia</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            África
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Sudafrica.html">Sudáfrica</a></li>
+                            <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Marruecos.html">Marruecos</a></li>
+                            <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Egipto.html">Egipto</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Asia
+                        </a>
+                        <ul class="dropdown-menu">
+                            <div class="row desplegableContinente">
+                                <div class="col-sm-6">
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Turquia.html">Turquía</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/China.html">China</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Japon.html">Japón</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Egipto.html">Egipto</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Emiratosarabes.html">Emiratos Árabes</a></li>
+                                </div>
+                                <div class="col-sm-6">
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Qatar.html">Qatar</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/India.html">India</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Tailandia.html">Tailandia</a></li>
+                                    <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Malasia.html">Malasia</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Oceanía
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Australia.html">Australia</a></li>
+                            <li class="desplegableLi"><a target="_blank" class="dropdown-item" href="/pages/Nuevazelanda.html">Nueva Zelanda</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
+
+            <a class="nav-link" id="search" href="https://lagom_priority_travel.mbc.aero.tur.ar/" role="button" target="_blank">
+                <i class="fa-solid fa-magnifying-glass-location"></i> Buscador
+            </a>
 
             <a class="nav-link" id="phone" href="https://api.whatsapp.com/send/?phone=5492235759174" role="button" target="_blank">
                 <i class="fa-brands fa-whatsapp"></i>+5492235759174 
@@ -47,7 +171,11 @@
                 <i class="fa-solid fa-at"></i> info@lagomviajes.com.ar 
             </a>
 
-            <!-- mobile onli -->
+<!-- mobile onli -->
+            <a class="nav-link" id="search_" href="https://lagom_priority_travel.mbc.aero.tur.ar/" role="button" target="_blank">
+                <i class="fa-solid fa-magnifying-glass-location"></i>
+            </a>
+
             <a class="nav-link" id="phone_" href="https://api.whatsapp.com/send/?phone=5492235759174" role="button" target="_blank">
                 <i class="fa-brands fa-whatsapp"></i> 
             </a>
@@ -55,34 +183,32 @@
             <a class="nav-link" id="mailto_" href="mailto:info@lagomviajes.com.ar" role="button" target="_blank">
                 <i class="fa-solid fa-at"></i>
             </a>
+<!-- mobile onli ends here-->
 
-            <!-- -->
 
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar1" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar1" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img class="logo1" src="https://lagomprioritytravel.tur.ar/fotos/configuracion_web/89b5857029d6229962bf3d96fccf4ff8.jpg" alt="Logo"></h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                        <a type="button" class="nav-link active" data-bs-toggle="modal" data-bs-target="#modalContacto">Contacto</a>
-        
-                    </li>
-                    <li class="nav-item">
-                        <a type="button" class="nav-link active" data-bs-toggle="modal" data-bs-target="#modalEmpresa">La empresa</a>
-                    </li>
-                </ul>
-
-            </div>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar1"  data-bs-auto-close="auto" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img class="logo1" src="https://lagomprioritytravel.tur.ar/fotos/configuracion_web/89b5857029d6229962bf3d96fccf4ff8.jpg" alt="Logo"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a type="button" class="nav-link active" data-bs-toggle="modal" data-bs-dismiss="offcanvas" data-bs-target="#modalContacto">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a type="button" class="nav-link active" data-bs-toggle="modal"  data-bs-dismiss="offcanvas" data-bs-target="#modalEmpresa">La empresa</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
 
-    <aside id="redes">
+    <aside id="redes"> 
         <a href="https://x.com/lagomviajes?t=Tqssz7BlgmCZPWJZQ1Gc1Q&s=08" class="net-item" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
         <a href="https://www.facebook.com/lagomviajes?mibextid=ZbWKwL" class="net-item" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
         <a href="https://instagram.com/lagomviajes?igshid=MzRlODBiNWFlZA==" class="net-item" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
@@ -90,11 +216,7 @@
     </aside>
 
 <div class="row fullScreen">
-    <div class="col">
-        <iframe class="object-fit-contain lagom" src="https://lagom_priority_travel.mbc.aero.tur.ar/" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div id="carouselExample" class="carousel slide col">
+    <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/3597649.jpg" class="d-block w-100" alt="img1">
@@ -386,7 +508,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 <script src="index.js"></script>
-  
- 
 </body>
 </html>
