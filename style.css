@@ -113,12 +113,20 @@ ul {
     padding: 0;
 }
 
-li {
+.comentarios {
     list-style: none;
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
+}
+
+/* Chechi Branch Style */
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .logo1 {
@@ -134,7 +142,7 @@ li {
     display: none;
 }
 
-#mailto_, #phone_ {
+#mailto_, #phone_, #search_ {
     display: none;
 }
 
@@ -145,10 +153,11 @@ li {
 
 .navbar {
     background: linear-gradient(180deg, rgba(41, 112, 219, 1) 0%, rgba(41, 112, 219, 1) 90%, rgba(255, 255, 255, 1) 100%);
-    position: fixed !important;
     top: 0%;
+    position: fixed !important;
     width: 100%;
-    z-index: 99999;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .offcanvas {
@@ -165,9 +174,25 @@ li {
 }
 
 .desplegableLi{
+    list-style: none;
     border: none;
-    margin: none;
-    padding: 0px;
+    margin: 1px;
+    padding: none;
+}
+
+.desplegableContinente {
+    width: max-content;
+}
+
+.nav-link {
+    list-style-type: none;
+
+}
+
+.nav-item {
+    list-style-type: none;
+    padding: 7px;
+    margin-left: 10px;
 }
 
 #redes {
@@ -179,8 +204,8 @@ li {
     position: fixed;
     bottom: 10%;
     right: 0%;
-    z-index: 99998;
     align-items: center;
+    z-index: 1000;
 }
 
 .net-item {
@@ -198,21 +223,27 @@ li {
 
 #carouselExample, .lagom {
     position: relative;
+    z-index: -10;
     margin-top: 5%;
 }
 
 .offcanvas{
-    z-index: 99999;
+    position: absolute;
+    z-index: 2000;
 }
 
 .modal-content {
     background: linear-gradient(40deg, rgba(41, 112, 219, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 80%, rgba(41, 112, 219, 1) 100%);
+
 }
 
 .modal-p {
     text-indent: 10%;
     text-align: justify;
+    font-size: small;
 }
+
+/* Chechi Branch Style ends here*/
 
 .titleh3 {
     color: var(--color-2);
@@ -261,6 +292,7 @@ li {
         align-items: center;
         height: 100vh;
     }
+
 }
 
 .colordiv {
@@ -306,7 +338,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .im {
@@ -351,6 +383,11 @@ a:hover {
     .buttontam {
         width: 80%;
     }
+
+    #redes {
+        top: 50px;
+    }
+
 }
 
 #logo2 {
@@ -435,6 +472,7 @@ a:hover {
     #carouselExampleSlidesOnly {
         max-height: 100px;
     }
+
 }
 
 @media (min-width: 620px) and (max-width: 900px) {
@@ -446,15 +484,20 @@ a:hover {
         left: 20px;
 
     }
+
 }
 
 @media (min-width: 200px) and (max-width: 541px) {
 
-    #mailto, #phone {
+    #redes {
+        top: 150px;
+    }
+
+    #mailto, #phone, #search {
         display: none;
     }
 
-    #mailto_, #phone_ {
+    #mailto_, #phone_, #search_ {
         display: block;
     }
 
