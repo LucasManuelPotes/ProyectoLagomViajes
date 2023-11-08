@@ -115,7 +115,9 @@ header {
   
 .header_nuevaZelanda {
   background-image: url(./assets/imagenes_paises/nuevazelanda.jpg)
-
+}
+.header_PaisesBajos {
+  background-image: url(./assets/imagenes_paises/paisesBajos.jpg)
 }
 
 /* FIN DE FOTO DE CADA PAIS */
@@ -521,6 +523,19 @@ background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
 
 .servicio_nuevazelanda3 {
   background-image: url(./assets/imagenes_paises/nuevazelanda_servicios3.jpg);
+}
+/* PAISES BAJOS */
+
+.servicio_PaisesBajos1 {
+  background-image: url(./assets/imagenes_paises/paisesbajos_servicios1.jpg);
+}
+
+.servicio_PaisesBajos2 {
+  background-image: url(./assets/imagenes_paises/paisesbajos_servicios2.jpg);
+}
+
+.servicio_PaisesBajos3 {
+  background-image: url(./assets/imagenes_paises/paisesbajos_servicios3.jpg);
 }
   
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
