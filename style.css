@@ -187,13 +187,16 @@ ul {
 
 .nav-link {
     list-style-type: none;
-
 }
 
 .nav-item {
     list-style-type: none;
     padding: 7px;
     margin-left: 10px;
+}
+
+.encabezado {
+    text-shadow: 2px 1px 3px rgb(251, 249, 249);
 }
 
 #redes {
@@ -242,6 +245,7 @@ ul {
     text-indent: 10%;
     text-align: justify;
     font-size: small;
+    color: black;
 }
 
 /* Chechi Branch Style ends here*/

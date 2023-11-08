@@ -108,7 +108,16 @@ header {
 .header_portugal{
   background-image: url(./assets/imagenes_paises/portugal.jpg);
 }
+
+.header_australia {
+  background-image: url(./assets/imagenes_paises/australia.jpg)
+}
   
+.header_nuevaZelanda {
+  background-image: url(./assets/imagenes_paises/nuevazelanda.jpg)
+
+}
+
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
     color: white;
@@ -180,7 +189,7 @@ a{
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   background-size: cover; 
+    background-size: cover; 
 }
 
 /* FOTOS DE SERVICIOS y PAQUETES SEGUN EL PAIS */
@@ -485,6 +494,34 @@ background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
 .servicio_portugal3{
    background-image: url(./assets/imagenes_paises/portugal_servicio3.jpg);
 }          
+
+/* AUSTRALIA */
+
+.servicio_australia1 {
+  background-image: url(./assets/imagenes_paises/australia_servicio1.jpg);
+}
+
+.servicio_australia2 {
+  background-image: url(./assets/imagenes_paises/australia_servicio2.jpg);
+}
+
+.servicio_australia3 {
+  background-image: url(./assets/imagenes_paises/australia_servicio3.jpg);
+}
+
+/* NUEVA ZELANDA */
+
+.servicio_nuevazelanda1 {
+  background-image: url(./assets/imagenes_paises/nuevazelanda_servicios1.jpg);
+}
+
+.servicio_nuevazelanda2 {
+  background-image: url(./assets/imagenes_paises/nuevazelanda_servicios2.jpg);
+}
+
+.servicio_nuevazelanda3 {
+  background-image: url(./assets/imagenes_paises/nuevazelanda_servicios3.jpg);
+}
   
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
