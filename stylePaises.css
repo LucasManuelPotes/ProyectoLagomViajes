@@ -93,6 +93,21 @@ header {
 .header_marruecos{
   background-image: url(./assets/imagenes_paises/marruecos.jpg);
 }
+.header_suiza{
+  background-image: url(./assets/imagenes_paises/suiza.jpg);
+}
+.header_belgica{
+  background-image: url(./assets/imagenes_paises/belgica.jpg);
+}
+.header_egipto{
+  background-image: url(./assets/imagenes_paises/egipto.jpg);
+}
+.header_irlanda{
+  background-image: url(./assets/imagenes_paises/irlanda.jpg);
+}
+.header_portugal{
+  background-image: url(./assets/imagenes_paises/portugal.jpg);
+}
   
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
@@ -419,7 +434,57 @@ background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
   }
   .servicio_marruecos3{
      background-image: url(./assets/imagenes_paises/marruecos_servicio3.jpg);
- }   
+ }  
+    /*SUIZA*/
+    .servicio_suiza1{
+      background-image: url(./assets/imagenes_paises/suiza_servicio1.jpg);
+    }
+    .servicio_suiza2{
+      background-image: url(./assets/imagenes_paises/suiza_servicio2.jpg);
+    }
+    .servicio_suiza3{
+       background-image: url(./assets/imagenes_paises/suiza_servicio3.jpg);
+   } 
+   /*BELGICA*/
+   .servicio_belgica1{
+    background-image: url(./assets/imagenes_paises/belgica_servicio1.jpg);
+  }
+  .servicio_belgica2{
+    background-image: url(./assets/imagenes_paises/belgica_servicio2.jpg);
+  }
+  .servicio_belgica3{
+     background-image: url(./assets/imagenes_paises/belgica_servicio3.jpg);
+ } 
+   /*EGIPTO*/
+   .servicio_egipto1{
+    background-image: url(./assets/imagenes_paises/egipto_servicio1.jpg);
+  }
+  .servicio_egipto2{
+    background-image: url(./assets/imagenes_paises/egipto_servicio2.jpg);
+  }
+  .servicio_egipto3{
+     background-image: url(./assets/imagenes_paises/egipto_servicio3.jpg);
+ } 
+ /*IRLANDA*/
+ .servicio_irlanda1{
+  background-image: url(./assets/imagenes_paises/irlanda_servicio1.jpg);
+}
+.servicio_irlanda2{
+  background-image: url(./assets/imagenes_paises/irlanda_servicio2.jpg);
+}
+.servicio_irlanda3{
+   background-image: url(./assets/imagenes_paises/irlanda_servicio3.jpg);
+}  
+ /*PORTUGAL*/
+ .servicio_portugal1{
+  background-image: url(./assets/imagenes_paises/portugal_servicio1.jpg);
+}
+.servicio_portugal2{
+  background-image: url(./assets/imagenes_paises/portugal_servicio2.jpg);
+}
+.servicio_portugal3{
+   background-image: url(./assets/imagenes_paises/portugal_servicio3.jpg);
+}          
   
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 

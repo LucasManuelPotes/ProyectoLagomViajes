@@ -8,7 +8,7 @@ body {
     --title: 'Rajdhani', sans-serif;
     --subtitle: 'Raleway', sans-serif;
     --title: 'font-family', 'Roboto', sans-serif;
-    --color-1: #4892ca;
+    --color-1: #2970db;
     --color-2: #036156;
     --color-3: #0b2e49;
     --color-4: #cecece;
@@ -36,18 +36,19 @@ h2 {
 /* Seccion LucasBranch */
 h3,
 .l-title {
-    color: var(--color-2);
-    font-family:var(--title);
+    color: white;
+    font-family:var(--subtitle);
     letter-spacing: .2rem;
     font-size:40px ;
     font-weight: bolder;
     margin: 15px;
+    margin-top: 50px;
 
 }
 
 p,
 .l-subtitle {
-    color: var(--color-2);
+    color: white;
     font-size: var(--letra-l);
     letter-spacing: .1rem;
 }
