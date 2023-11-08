@@ -34,7 +34,7 @@ header {
   background-image: url(./assets/imagenes_paises/estadosunidos.jpg);
 }
 .header_republicadominicana{
-  background-image: url(./assets/imagenes_paises/repdominicana.jpg);
+  background-image: url(./assets/imagenes_paises/republicadominicana.jpg);
 }
 .header_españa{
   background-image: url(./assets/imagenes_paises/españa.jpg);
@@ -223,7 +223,7 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
     background-image: url(./assets/imagenes_paises/argentina_servicios2.jpg);
   }
   .servicio_argentina3{
-    background-image: url(./assets/imagenes_paises/argentina_servicio3.jpg);
+    background-image: url(./assets/imagenes_paises/argentina_servicios3.jpg);
   }
   /* ESTADOS UNIDOS */
   .servicio_estadosunidos1{
@@ -233,17 +233,17 @@ background-image: url(./assets/imagenes_paises/mexico_servicio3.png);
     background-image: url(./assets/imagenes_paises/estadosunidos_servicios2.jpg);
   }
   .servicio_estadosunidos3{
-    background-image: url(./assets/imagenes_paises/estadosunidos_servicions3.jpg);
+    background-image: url(./assets/imagenes_paises/estadosunidos_servicios3.jpg);
   }
   /* REPUBLICA DOMINICANA */
   .servicio_repdominicana1{
-    background-image: url(./assets/imagenes_paises/repdominicana_servicios1.jpg) ;
+    background-image: url(./assets/imagenes_paises/republicadominicana_servicios1.jpg) ;
   }
   .servicio_repdominicana2{
-    background-image: url(./assets/imagenes_paises/repdominicana_servicions2.jpg) ;
+    background-image: url(./assets/imagenes_paises/republicadominicana_servicios2.jpg) ;
   }
   .servicio_repdominicana3{
-    background-image: url(./assets/imagenes_paises/repdominicana_servicios3.jpg) ;
+    background-image: url(./assets/imagenes_paises/republicadominicana_servicios3.jpg) ;
   }
   /* ESPAÑA */
   .servicio_españa1{
