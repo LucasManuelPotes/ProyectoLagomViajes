@@ -117,6 +117,10 @@ header {
   background-image: url(./assets/imagenes_paises/nuevazelanda.jpg)
 
 }
+.header_ReinoUnido {
+  background-image: url(./assets/imagenes_paises/reinounido.jpg)
+
+}
 
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
@@ -521,6 +525,19 @@ background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
 
 .servicio_nuevazelanda3 {
   background-image: url(./assets/imagenes_paises/nuevazelanda_servicios3.jpg);
+}
+/* REINO UNIDO */
+
+.servicio_ReinoUnido1 {
+  background-image: url(./assets/imagenes_paises/reinounido_servicios1.jpg);
+}
+
+.servicio_ReinoUnido2 {
+  background-image: url(./assets/imagenes_paises/reinounido_servicios2.jpg);
+}
+
+.servicio_ReinoUnido3 {
+  background-image: url(./assets/imagenes_paises/reinounido_servicios3.jpg);
 }
   
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
