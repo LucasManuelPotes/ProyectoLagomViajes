@@ -1,80 +1,210 @@
-<style>
-    form{
-        display: flex;
-        flex-direction: column;
-        width: 350px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        position: relative;
-    }
-    form>div{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid red;
-        padding: 1rem;
-        gap: 1rem;
-    }
-    form>div>label:not(:first-of-type){
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    form>dialog{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        display: flex;
-        flex-direction: column;
-    }
-</style>
+<head>
 
-<form action="">
-    <h1>Vuelos</h1>
-    <div class="type">
-        <label for="type" id="type">
-            <label> Ida y vuelta
-                <input type="radio" name="type" value="two-ways">
+</head>
+<body>
+
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            position: relative;
+        }
+        form>div{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid red;
+            padding: 1rem;
+            gap: 1rem;
+        }
+        form>div>label:not(:first-of-type){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        form>dialog{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        dialog{
+            display: none;
+        }
+
+        .origin-option-container{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            overflow: hidden;
+            overflow-y: scroll;
+            max-height: 350px;
+            position: absolute;
+            left: 15px;
+        }
+        .destiny-option-container{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            overflow: hidden;
+            overflow-y: scroll;
+            max-height: 350px;
+            position: absolute;
+            left: 185px;
+        }
+        .option{
+            border: 1px solid black;
+            background-color: white;
+            z-index: 2;
+        }
+    </style>
+    
+    <form action="">
+        <h1>Vuelos</h1>
+        <div class="type">
+            <label for="type" id="type">
+                <label> Ida y vuelta
+                    <input type="radio" name="type" value="two-ways">
+                </label>
+                <label> Ida
+                    <input type="radio" name="type" value="one-way">
+                </label>
             </label>
-            <label> Ida
-                <input type="radio" name="type" value="one-way">
+        </div>
+        <div class="cities">
+            <label for="origin-city" class="origin-city">Desde
+                <input type="text" id="origin-city" name="origin-city">
+                <div class="origin-option-container">
+                </div>
             </label>
-        </label>
-    </div>
-    <div class="cities">
-        <label for="origin-city">Desde
-            <input type="text" id="origin-city" name="origin-city">
-        </label>
-        <label for="destiny-city">hacia
-            <input type="text" id="destiny-city" name="destiny-city">
-        </label>
-    </div>
-    <div class="dates">
-        <label for="">
-            <input type="date">
-        </label>
-        <label for="">
-            <input type="date">
-        </label>
-    </div>
-    <span>
-        1  pasajer
-    </span>
-    <dialog closed>
-        <label for="adult">
-            Adultos
-            <input type="number" name="adult" id="adult">
-        </label>
-        <label for="kids">
-            Niños
-            <input type="number" name="kids" id="kids">
-        </label>
-    </dialog>
-</form>
+            <label for="destiny-city">hacia
+                <input type="text" id="destiny-city" name="destiny-city">
+                <div class="destiny-option-container">
+
+                </div>
+            </label>
+        </div>
+        <div class="dates">
+            <label for="">
+                <input type="date">
+            </label>
+            <label for="">
+                <input type="date">
+            </label>
+        </div>
+        <span>
+            1  pasajero
+        </span>
+        <dialog>
+            <label for="adult">
+                Adultos
+                <input type="number" name="adult" id="adult">
+            </label>
+            <label for="kids">
+                Niños
+                <input type="number" name="kids" id="kids">
+            </label>
+        </dialog>
+    </form>
+    
+    
+    <script>
+        const FROM_CITY_ENDPOINT = "https://ln6jlvzgjd.execute-api.sa-east-1.amazonaws.com/production//cities?criteria="
+        const DESTINY_CITY_ENDPOINT = "https://ln6jlvzgjd.execute-api.sa-east-1.amazonaws.com/production/locations?q="
+        const TOKEN = 'Token token="25a9d36bf49ea21f6a59dad6a356dce3"'
+        const fromCityInput = document.querySelector('#origin-city')
+        const originOptionsContainer = document.querySelector('.origin-option-container')
+
+        const destinyCityInput = document.querySelector('#destiny-city')
+        const destinyOptionsContainer = document.querySelector('.destiny-option-container')
+
+        function debounce(func, timeout = 500){
+            let timer;
+            return (...args) => {
+                clearTimeout(timer);
+                timer = setTimeout(() => { func.apply(this, args); }, timeout);
+            };
+        }
+
+        const createOption = (op, param) => {
+            const {name, country_name, text} = op
+            const option = document.createElement('div')
+            const optionName = document.createElement('h2')
+            const optionCountry = document.createElement('h3')
+            if(param==='from'){
+                optionName.textContent = name
+                optionCountry.textContent = country_name
+            }else{
+                optionName.textContent = text                
+            }
+            option.appendChild(optionName)
+            option.appendChild(optionCountry)
+            option.classList.add('option')
+            option.onclick = () => {
+                if(param === 'from'){
+                    fromCityInput.value = `${name}, ${country_name}`
+                }else{
+                    destinyCityInput.value = `${text}`
+                }
+                originOptionsContainer.innerHTML = ''
+                destinyOptionsContainer.innerHTML = ''
+
+            }
+            if(param==='from'){
+                originOptionsContainer.appendChild(option)
+            }else{
+                destinyOptionsContainer.appendChild(option)
+            }
+
+           
+        }
+
+        const mapOptions = (arr, param) => {
+            if(!arr.length){
+                return 
+            }
+            originOptionsContainer.innerHTML = ''
+            arr.forEach( opt => createOption(opt, param))            
+        }
+
+        const lookForCities = (e, param) => {
+            const {value} = e.target;
+            let endpointWithValue;
+            if(param === 'from'){
+                endpointWithValue = `${FROM_CITY_ENDPOINT}${value.trim().replaceAll(' ', '%20')}`
+            }else{
+                endpointWithValue = `${DESTINY_CITY_ENDPOINT}${value.trim().replaceAll(' ', '%20')}`
+            }
+            
+           const fetchConfig = {
+            method: 'GET',
+            headers: {
+                'Authorization' : TOKEN
+            },
+            redirect: 'follow'
+            };
+
+            fetch(endpointWithValue, fetchConfig)
+                .then(response => response.json())
+                .then(result => mapOptions(result.data, param))
+                .catch(error => console.log('error', error))
+                .finally(console.log('terminamos'))
+                
+                
+                }
 
 
-<script>
+        fromCityInput.onchange = (e) => debounce(lookForCities(e, 'from'))
 
-</script>
+        destinyCityInput.onchange = (e) => debounce(lookForCities(e, 'destiny'))
+
+
+
+    </script>
+</body>
