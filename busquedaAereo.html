@@ -1,0 +1,80 @@
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+    }
+    form>div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid red;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    form>div>label:not(:first-of-type){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    form>dialog{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+
+<form action="">
+    <h1>Vuelos</h1>
+    <div class="type">
+        <label for="type" id="type">
+            <label> Ida y vuelta
+                <input type="radio" name="type" value="two-ways">
+            </label>
+            <label> Ida
+                <input type="radio" name="type" value="one-way">
+            </label>
+        </label>
+    </div>
+    <div class="cities">
+        <label for="origin-city">Desde
+            <input type="text" id="origin-city" name="origin-city">
+        </label>
+        <label for="destiny-city">hacia
+            <input type="text" id="destiny-city" name="destiny-city">
+        </label>
+    </div>
+    <div class="dates">
+        <label for="">
+            <input type="date">
+        </label>
+        <label for="">
+            <input type="date">
+        </label>
+    </div>
+    <span>
+        1  pasajer
+    </span>
+    <dialog closed>
+        <label for="adult">
+            Adultos
+            <input type="number" name="adult" id="adult">
+        </label>
+        <label for="kids">
+            Niños
+            <input type="number" name="kids" id="kids">
+        </label>
+    </dialog>
+</form>
+
+
+<script>
+
+</script>
