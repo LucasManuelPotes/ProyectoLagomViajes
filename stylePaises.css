@@ -115,8 +115,17 @@ header {
   
 .header_nuevaZelanda {
   background-image: url(./assets/imagenes_paises/nuevazelanda.jpg)
-
 }
+
+.header_curazao {
+  background-image: url(./assets/imagenes_paises/curazao.jpg)
+}
+
+.header_aruba{
+  background-image: url(./assets/imagenes_paises/aruba.jpg)
+}
+
+
 
 /* FIN DE FOTO DE CADA PAIS */
 .titulo_pais{
@@ -521,6 +530,35 @@ background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
 
 .servicio_nuevazelanda3 {
   background-image: url(./assets/imagenes_paises/nuevazelanda_servicios3.jpg);
+}
+  
+/* CURAZAO */
+
+.servicio_curazao1 {
+  background-image: url(./assets/imagenes_paises/curazao_servicio1.jpg);
+}
+
+.servicio_curazao2 {
+  background-image: url(./assets/imagenes_paises/curazao_servicio2.png);
+}
+
+.servicio_curazao3 {
+  background-image: url(./assets/imagenes_paises/curazao_servicio3.jpg);
+}
+  
+
+/*ARUBA */
+
+.servicio_aruba1 {
+  background-image: url(./assets/imagenes_paises/aruba_servicio1.jpg);
+}
+
+.servicio_aruba2 {
+  background-image: url(./assets/imagenes_paises/aruba_servicio2.jpg);
+}
+
+.servicio_aruba3 {
+  background-image: url(./assets/imagenes_paises/aruba_servicio3.jpg);
 }
   
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
