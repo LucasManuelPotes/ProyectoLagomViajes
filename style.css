@@ -159,6 +159,7 @@ ul {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    z-index: 1000000;
 }
 
 .offcanvas {
