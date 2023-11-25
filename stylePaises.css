@@ -182,6 +182,7 @@ header {
 .color1{
     color: white;
     text-align: center;
+    background-color: rgba(67, 20, 3, 0.251);
 }
 .m1{
     margin-top: 10px;
@@ -192,6 +193,7 @@ header {
 
 a{
     text-decoration: none;
+    cursor: default;
 }
 
 

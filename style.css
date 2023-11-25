@@ -554,3 +554,40 @@ a:hover {
 
     /* Seccion LucasBranc */
 }
+.divisor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px; 
+    overflow: hidden; 
+}
+
+.imagen-enlace {
+    width: 48%; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    transition: border 0.3s; 
+   
+}
+
+
+
+.imagen-enlace:hover {
+    border: 2px solid black; 
+}
+
+@media (max-width: 768px) {
+    .divisor {
+        height: auto;
+        flex-direction: column; 
+    }
+
+    .imagen-enlace {
+        width: 100%; 
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }
+}
