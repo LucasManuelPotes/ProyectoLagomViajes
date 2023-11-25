@@ -124,6 +124,37 @@ header {
 .header_aruba{
   background-image: url(./assets/imagenes_paises/aruba.jpg)
 }
+.header_reinounido{
+  background-image: url(./assets/imagenes_paises/Reino_unido.jpg)
+}
+.header_paisesbajos{
+  background-image: url(./assets/imagenes_paises/PaisesBajos.jpg)
+}
+.header_republicacheca{
+  background-image: url(./assets/imagenes_paises/RepublicaCheca.jpg)
+}
+.header_croacia{
+  background-image: url(./assets/imagenes_paises/Croacia.jpg)
+}
+.header_sudafrica{
+  background-image: url(./assets/imagenes_paises/sudafrica.jpg)
+}
+.header_emiratosarabes{
+  background-image: url(./assets/imagenes_paises/Emiratosarabes.jpg)
+}
+.header_qatar{
+  background-image: url(./assets/imagenes_paises/Qatar.jpg)
+}
+.header_india{
+  background-image: url(./assets/imagenes_paises/India.jpg)
+}
+.header_tailandia{
+  background-image: url(./assets/imagenes_paises/tailandia.jpg)
+}
+.header_malasia{
+  background-image: url(./assets/imagenes_paises/Malasia.jpg)
+}
+
 
 
 
@@ -560,7 +591,137 @@ background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
 .servicio_aruba3 {
   background-image: url(./assets/imagenes_paises/aruba_servicio3.jpg);
 }
-  
+/*Reino Unido */
+
+.servicio_reinounido1 {
+  background-image: url(./assets/imagenes_paises/Reino_unido_servicio1.jpg);
+}
+
+.servicio_reinounido2 {
+  background-image: url(./assets/imagenes_paises/Reino_unido_servicio2.jpg);
+}
+
+.servicio_reinounido3 {
+  background-image: url(./assets/imagenes_paises/Reino_unido_servicio3.jpg);
+}
+/*PAISES BAJOS */
+
+.servicio_paisesbajos1 {
+  background-image: url(./assets/imagenes_paises/PaisesBajos_servicio1.jpg);
+}
+
+.servicio_paisesbajos2 {
+  background-image: url(./assets/imagenes_paises/PaisesBajos_servicio2.jpg);
+}
+
+.servicio_paisesbajos3 {
+  background-image: url(./assets/imagenes_paises/PaisesBajos_servicio3.jpg);
+}
+
+/*REPUBLICA CHECA */
+
+.servicio_republicacheca1 {
+  background-image: url(./assets/imagenes_paises/RepublicaCheca_servicio1.jpg);
+}
+
+.servicio_republicacheca2 {
+  background-image: url(./assets/imagenes_paises/RepublicaCheca_servicio2.jpg);
+}
+
+.servicio_republicacheca3 {
+  background-image: url(./assets/imagenes_paises/RepublicaCheca_servicio3.jpg);
+}
+/*CROACIA */
+
+.servicio_croacia1 {
+  background-image: url(./assets/imagenes_paises/croacia_servicio1.jpg);
+}
+
+.servicio_croacia2 {
+  background-image: url(./assets/imagenes_paises/croacia_servicio2.jpg);
+}
+
+.servicio_croacia3 {
+  background-image: url(./assets/imagenes_paises/croacia_servicio3.jpg);
+}
+/*SUDAFRICA */
+
+.servicio_sudafrica1 {
+  background-image: url(./assets/imagenes_paises/sudafrica_servicio1.jpg);
+}
+
+.servicio_sudafrica2 {
+  background-image: url(./assets/imagenes_paises/sudafrica_servicio2.jpg);
+}
+
+.servicio_sudafrica3 {
+  background-image: url(./assets/imagenes_paises/sudafrica_servicio3.jpg);
+}
+/*EMIRATOS ARABES*/
+
+.servicio_emiratosarabes1 {
+  background-image: url(./assets/imagenes_paises/Emiratosarabes_servicio1.jpg);
+}
+
+.servicio_emiratosarabes2 {
+  background-image: url(./assets/imagenes_paises/Emiratosarabes_servicio2.jpg);
+}
+
+.servicio_emiratosarabes3 {
+  background-image: url(./assets/imagenes_paises/Emiratosarabes_servicio3.jpg);
+}
+/*EMIRATOS QATAR*/
+
+.servicio_qatar1 {
+  background-image: url(./assets/imagenes_paises/qatar_servicio1.jpg);
+}
+
+.servicio_qatar2 {
+  background-image: url(./assets/imagenes_paises/qatar_servicio2.jpg);
+}
+
+.servicio_qatar3 {
+  background-image: url(./assets/imagenes_paises/qatar_servicio3.jpg);
+}
+/*INDIA*/
+
+.servicio_india1 {
+  background-image: url(./assets/imagenes_paises/india_servicio1.jpg);
+}
+
+.servicio_india2 {
+  background-image: url(./assets/imagenes_paises/india_servicio2.jpg);
+}
+
+.servicio_india3 {
+  background-image: url(./assets/imagenes_paises/india_servicio3.jpg);
+}
+/*TAILANDIA*/
+
+.servicio_tailandia1 {
+  background-image: url(./assets/imagenes_paises/tailandia_servicio1.jpg);
+}
+
+.servicio_tailandia2 {
+  background-image: url(./assets/imagenes_paises/tailandia_servicio2.jpg);
+}
+
+.servicio_tailandia3 {
+  background-image: url(./assets/imagenes_paises/tailandia_servicio3.jpg);
+}
+/*MALASIA*/
+
+.servicio_malasia1 {
+  background-image: url(./assets/imagenes_paises/malasia_servicio1.jpg);
+}
+
+.servicio_malasia2 {
+  background-image: url(./assets/imagenes_paises/malasia_servicio2.jpg);
+}
+
+.servicio_malasia3 {
+  background-image: url(./assets/imagenes_paises/malasia_servicio3.jpg);
+}
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
 footer {
