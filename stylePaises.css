@@ -209,7 +209,6 @@ a{
 }
 .servicio_1:hover,.servicio_2:hover,.servicio_3:hover {
     transform: scale(0.9);
-    ;
     transition: transform 0.9s ease;
     border: solid #fff;
 }
@@ -727,11 +726,34 @@ background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #878788;
+    color: slateblue;
     text-align: center;
     padding: 1rem 0;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+.redes_en_footer {
+  margin-left: 20px;
+  color: #ffffffb6;
+  font-size: 40px;
+}
+
+.redes_en_footer:hover{
+
+  color: #fff;
+  text-shadow: 1px 2px 3px black;
+  font-size: 38px;
+
+}
+
+#logo_en_footer {
+  width: 100px;
+}
+
+#logo_en_footer:hover {
+  transform: scale(1.1);
+  transition: transform 0.9s ease;
 }
