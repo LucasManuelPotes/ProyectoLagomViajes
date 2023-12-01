@@ -469,7 +469,6 @@ a:hover {
     flex-wrap: nowrap;
 }
 
-
 @media (max-width: 768px) {
     #carouselExampleSlidesOnly {
         max-height: 100px;
