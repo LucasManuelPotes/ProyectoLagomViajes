@@ -210,7 +210,6 @@ a{
 .servicio_1:hover,.servicio_2:hover,.servicio_3:hover {
     transform: scale(0.9);
     transition: transform 0.9s ease;
-    border: solid #fff;
 }
 .servicio_2 {
     width: 300px;
