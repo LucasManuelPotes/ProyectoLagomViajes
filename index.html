@@ -336,7 +336,7 @@
 
 <!-- FranBranch -->
 <div class="comments">
-    <h1>Las palabras de nuestros pasajeros</h1>
+    <h1 class="marcom">Las palabras de nuestros pasajeros</h1>
     <form id="comment-form">
         <input type="text" id="name" placeholder="Nombre" required>
         <textarea id="comment" placeholder="Escribe tu comentario" required></textarea>
@@ -416,24 +416,21 @@
         <img id="logo2" src="./assets/iconLagom.jpg" alt="">
         <p class="Lg">@Lagomviajes</p>
         <div class="Lg">
-          <a href="https://instagram.com/lagomviajes?igshid=MzRlODBiNWFlZA==" target="_blank"><button type="button" class="btn btn-primary">Seguir</button></a>
+          <a href="https://instagram.com/lagomviajes?igshid=MzRlODBiNWFlZA==" target="_blank"><button type="button" class="btn btn-primary">¡Seguinos en instagram!</button></a>
         </div>
       </div>
       <div class="col-md-6">
         <form class="mf">
-          <div class="mb-3">
-            <label for="exampleInputName" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="exampleInputName" name="name" required>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required>
-            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" name="password" required>
-          </div>
+            <p> Suscribite para recibir ofertas y novedades.</p>
+            <div class="form-group"><input class="form-control" type="text" name="usuario" placeholder="Ingresá tu usuario"></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Escribí tu correo electrónico"></div>
+            <div class="form-group"><input class="form-control" type="date" name="birthday" placeholder="Tu cumpleaños"></div>
+
+            <div class="form-group">
+                <div class="d-flex justify-content-center ">
+        <div class="form-check"> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <label class="form-check-label" for="flexCheckDefault"> Quiero recibir novedades sobre ofertas y descuentos.</label> </div>
+    </div>
+            </div>
           <button type="submit" class="btn btn-primary">Registrarse</button>
         </form>
       </div>
