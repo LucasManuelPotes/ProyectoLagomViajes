@@ -734,6 +734,25 @@ background-image: url(./assets/imagenes_paises/uruguay_servicio3.jpg);
 }
 /* FIN DE SERVICIOS Y PAQUETES POR PAISES */
 
+.navbar {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #ececec;
+  width: 100%;
+}
+
+.redes_en_nav {
+  position: relative;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #161616;
+  text-shadow: 1px 1px 1px rgb(83, 83, 83);
+}
+
+
 footer {
     background-color: #878788;
     color: slateblue;
@@ -745,7 +764,8 @@ footer {
 }
 
 .redes_en_footer {
-  margin-left: 20px;
+  position: relative;
+  margin-left: 50px;
   color: #ffffffb6;
   font-size: 40px;
 }
@@ -762,7 +782,43 @@ footer {
   width: 100px;
 }
 
-#logo_en_footer:hover {
+#wp_logo {
+  width: 50px;
+  margin-left: 50px;
+}
+
+#logo_en_footer:hover, #wp_logo:hover, .redes_en_nav:hover {
   transform: scale(1.1);
   transition: transform 0.9s ease;
+}
+
+/*       FORM            */
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+#img_form {
+  max-width: 100%;
+}
+
+
+@media (max-width: 620px) {
+  .image-container{
+    display: none;
+  }
+  .redes_en_footer {
+    margin-left: 10px;
+    color: #ffffffb6;
+    font-size: 20px;
+  }
+
+  .navbar {
+    flex-flow: column;
+  }
 }

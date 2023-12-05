@@ -136,7 +136,7 @@ ul {
 }
 
 .logo_header {
-    width: 150px; 
+    width: 100px; 
 }
 
 .logoIndividual{
@@ -153,17 +153,16 @@ ul {
 }
 
 .navbar {
-    background: white;
-    top: 0%;
-    position: fixed !important;
-    width: 100%;
+    background-color: #ececec;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     z-index: 1000000;
 }
 
-.offcanvas {
+.offcanvas-body {
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 80%, rgba(41, 112, 219, 1) 100%);
+    z-index: 1000099;
 }
 
 .dropdown {
@@ -225,7 +224,7 @@ ul {
 #carouselExample, .lagom {
     position: relative;
     z-index: -10;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 .offcanvas{
@@ -235,7 +234,11 @@ ul {
 
 .modal-content {
     background: linear-gradient(40deg, rgba(41, 112, 219, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 80%, rgba(41, 112, 219, 1) 100%);
+    
+}
 
+.modal {
+    z-index: 999999999999;
 }
 
 .modal-p {
@@ -515,7 +518,7 @@ a:hover {
     
     .logoIndividual {
         display: block;
-        width: 70px;
+        width: 50px;
     }
     
 }
